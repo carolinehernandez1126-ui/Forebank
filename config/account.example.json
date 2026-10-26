@@ -1,0 +1,15 @@
+{
+  "account_id": "LOCAL_ALIAS_ONLY",
+  "currency": "USD",
+  "as_of": "2026-01-01T12:00:00Z",
+  "day_start": "2026-01-01T00:00:00Z",
+  "verified": false,
+  "reconciled": false,
+  "day_start_equity": 50000,
+  "equity": 50000,
+  "peak_equity": 50000,
+  "free_cash": 50000,
+  "net_external_flows_today": 0,
+  "daily_lockout": false,
+  "positions": []
+}

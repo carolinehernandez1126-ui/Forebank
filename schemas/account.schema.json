@@ -1,0 +1,115 @@
+{
+  "$defs": {
+    "Position": {
+      "additionalProperties": false,
+      "properties": {
+        "symbol": {
+          "title": "Symbol",
+          "type": "string"
+        },
+        "gross_notional": {
+          "minimum": 0,
+          "title": "Gross Notional",
+          "type": "number"
+        },
+        "additional_stop_risk": {
+          "minimum": 0,
+          "title": "Additional Stop Risk",
+          "type": "number"
+        },
+        "protected": {
+          "title": "Protected",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "symbol",
+        "gross_notional",
+        "additional_stop_risk",
+        "protected"
+      ],
+      "title": "Position",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "account_id": {
+      "title": "Account Id",
+      "type": "string"
+    },
+    "currency": {
+      "title": "Currency",
+      "type": "string"
+    },
+    "as_of": {
+      "format": "date-time",
+      "title": "As Of",
+      "type": "string"
+    },
+    "day_start": {
+      "format": "date-time",
+      "title": "Day Start",
+      "type": "string"
+    },
+    "verified": {
+      "default": false,
+      "title": "Verified",
+      "type": "boolean"
+    },
+    "reconciled": {
+      "default": false,
+      "title": "Reconciled",
+      "type": "boolean"
+    },
+    "day_start_equity": {
+      "exclusiveMinimum": 0,
+      "title": "Day Start Equity",
+      "type": "number"
+    },
+    "equity": {
+      "exclusiveMinimum": 0,
+      "title": "Equity",
+      "type": "number"
+    },
+    "peak_equity": {
+      "exclusiveMinimum": 0,
+      "title": "Peak Equity",
+      "type": "number"
+    },
+    "free_cash": {
+      "minimum": 0,
+      "title": "Free Cash",
+      "type": "number"
+    },
+    "net_external_flows_today": {
+      "default": 0,
+      "title": "Net External Flows Today",
+      "type": "number"
+    },
+    "daily_lockout": {
+      "default": false,
+      "title": "Daily Lockout",
+      "type": "boolean"
+    },
+    "positions": {
+      "items": {
+        "$ref": "#/$defs/Position"
+      },
+      "title": "Positions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "account_id",
+    "currency",
+    "as_of",
+    "day_start",
+    "day_start_equity",
+    "equity",
+    "peak_equity",
+    "free_cash"
+  ],
+  "title": "Account",
+  "type": "object"
+}

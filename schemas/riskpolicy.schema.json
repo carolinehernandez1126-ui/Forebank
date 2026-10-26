@@ -1,0 +1,175 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "account_mode": {
+      "const": "own_capital_spot",
+      "default": "own_capital_spot",
+      "title": "Account Mode",
+      "type": "string"
+    },
+    "quote_currency": {
+      "default": "USD",
+      "title": "Quote Currency",
+      "type": "string"
+    },
+    "policy_verified": {
+      "default": false,
+      "title": "Policy Verified",
+      "type": "boolean"
+    },
+    "initial_capital": {
+      "default": 50000,
+      "exclusiveMinimum": 0,
+      "title": "Initial Capital",
+      "type": "number"
+    },
+    "hard_daily_loss_fraction": {
+      "default": 0.03,
+      "exclusiveMinimum": 0,
+      "maximum": 0.03,
+      "title": "Hard Daily Loss Fraction",
+      "type": "number"
+    },
+    "hard_max_drawdown_fraction": {
+      "default": 0.06,
+      "exclusiveMinimum": 0,
+      "maximum": 0.06,
+      "title": "Hard Max Drawdown Fraction",
+      "type": "number"
+    },
+    "min_bars": {
+      "default": 250,
+      "minimum": 201,
+      "title": "Min Bars",
+      "type": "integer"
+    },
+    "required_intervals": {
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 1,
+      "title": "Required Intervals",
+      "type": "array"
+    },
+    "daily_loss_fraction": {
+      "default": 0.02,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Daily Loss Fraction",
+      "type": "number"
+    },
+    "per_trade_fraction": {
+      "default": 0.0025,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Per Trade Fraction",
+      "type": "number"
+    },
+    "max_total_stop_risk_fraction": {
+      "default": 0.005,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Max Total Stop Risk Fraction",
+      "type": "number"
+    },
+    "max_gross_exposure_fraction": {
+      "default": 0.5,
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Max Gross Exposure Fraction",
+      "type": "number"
+    },
+    "max_asset_exposure_fraction": {
+      "default": 0.2,
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Max Asset Exposure Fraction",
+      "type": "number"
+    },
+    "max_drawdown_fraction": {
+      "default": 0.04,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Max Drawdown Fraction",
+      "type": "number"
+    },
+    "safety_buffer_fraction": {
+      "default": 0.2,
+      "exclusiveMaximum": 1,
+      "minimum": 0,
+      "title": "Safety Buffer Fraction",
+      "type": "number"
+    },
+    "min_reward_risk": {
+      "default": 2,
+      "exclusiveMinimum": 0,
+      "title": "Min Reward Risk",
+      "type": "number"
+    },
+    "fee_bps_per_side": {
+      "default": 40,
+      "exclusiveMaximum": 10000,
+      "minimum": 0,
+      "title": "Fee Bps Per Side",
+      "type": "number"
+    },
+    "slippage_bps_per_side": {
+      "default": 15,
+      "exclusiveMaximum": 10000,
+      "minimum": 0,
+      "title": "Slippage Bps Per Side",
+      "type": "number"
+    },
+    "max_spread_bps": {
+      "default": 20,
+      "exclusiveMinimum": 0,
+      "title": "Max Spread Bps",
+      "type": "number"
+    },
+    "max_entry_deviation_fraction": {
+      "default": 0.01,
+      "exclusiveMaximum": 1,
+      "exclusiveMinimum": 0,
+      "title": "Max Entry Deviation Fraction",
+      "type": "number"
+    },
+    "max_depth_participation_fraction": {
+      "default": 0.01,
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Max Depth Participation Fraction",
+      "type": "number"
+    },
+    "max_account_age_seconds": {
+      "default": 300,
+      "exclusiveMinimum": 0,
+      "title": "Max Account Age Seconds",
+      "type": "integer"
+    },
+    "max_market_age_seconds": {
+      "default": 120,
+      "exclusiveMinimum": 0,
+      "title": "Max Market Age Seconds",
+      "type": "integer"
+    },
+    "max_review_age_seconds": {
+      "default": 3600,
+      "exclusiveMinimum": 0,
+      "title": "Max Review Age Seconds",
+      "type": "integer"
+    },
+    "max_plan_lifetime_seconds": {
+      "default": 3600,
+      "exclusiveMinimum": 0,
+      "title": "Max Plan Lifetime Seconds",
+      "type": "integer"
+    },
+    "daily_reset_utc": {
+      "default": "00:00",
+      "title": "Daily Reset Utc",
+      "type": "string"
+    }
+  },
+  "title": "RiskPolicy",
+  "type": "object"
+}

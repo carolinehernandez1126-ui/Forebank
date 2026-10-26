@@ -1,0 +1,211 @@
+{
+  "$defs": {
+    "Candle": {
+      "additionalProperties": false,
+      "properties": {
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "open": {
+          "exclusiveMinimum": 0,
+          "title": "Open",
+          "type": "number"
+        },
+        "high": {
+          "exclusiveMinimum": 0,
+          "title": "High",
+          "type": "number"
+        },
+        "low": {
+          "exclusiveMinimum": 0,
+          "title": "Low",
+          "type": "number"
+        },
+        "close": {
+          "exclusiveMinimum": 0,
+          "title": "Close",
+          "type": "number"
+        },
+        "volume": {
+          "minimum": 0,
+          "title": "Volume",
+          "type": "number"
+        }
+      },
+      "required": [
+        "timestamp",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
+      "title": "Candle",
+      "type": "object"
+    },
+    "Instrument": {
+      "additionalProperties": false,
+      "properties": {
+        "symbol": {
+          "title": "Symbol",
+          "type": "string"
+        },
+        "pair": {
+          "title": "Pair",
+          "type": "string"
+        },
+        "base": {
+          "title": "Base",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "min_quantity": {
+          "exclusiveMinimum": 0,
+          "title": "Min Quantity",
+          "type": "number"
+        },
+        "min_cost": {
+          "minimum": 0,
+          "title": "Min Cost",
+          "type": "number"
+        },
+        "quantity_decimals": {
+          "maximum": 18,
+          "minimum": 0,
+          "title": "Quantity Decimals",
+          "type": "integer"
+        },
+        "price_decimals": {
+          "maximum": 18,
+          "minimum": 0,
+          "title": "Price Decimals",
+          "type": "integer"
+        },
+        "tick_size": {
+          "exclusiveMinimum": 0,
+          "title": "Tick Size",
+          "type": "number"
+        }
+      },
+      "required": [
+        "symbol",
+        "pair",
+        "base",
+        "quote",
+        "status",
+        "min_quantity",
+        "min_cost",
+        "quantity_decimals",
+        "price_decimals",
+        "tick_size"
+      ],
+      "title": "Instrument",
+      "type": "object"
+    },
+    "Quote": {
+      "additionalProperties": false,
+      "properties": {
+        "as_of": {
+          "format": "date-time",
+          "title": "As Of",
+          "type": "string"
+        },
+        "bid": {
+          "exclusiveMinimum": 0,
+          "title": "Bid",
+          "type": "number"
+        },
+        "ask": {
+          "exclusiveMinimum": 0,
+          "title": "Ask",
+          "type": "number"
+        },
+        "ask_depth_near_quote": {
+          "minimum": 0,
+          "title": "Ask Depth Near Quote",
+          "type": "number"
+        }
+      },
+      "required": [
+        "as_of",
+        "bid",
+        "ask",
+        "ask_depth_near_quote"
+      ],
+      "title": "Quote",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "synthetic": {
+      "default": false,
+      "title": "Synthetic",
+      "type": "boolean"
+    },
+    "instrument": {
+      "$ref": "#/$defs/Instrument"
+    },
+    "quote": {
+      "$ref": "#/$defs/Quote"
+    },
+    "candles": {
+      "additionalProperties": {
+        "items": {
+          "$ref": "#/$defs/Candle"
+        },
+        "type": "array"
+      },
+      "minProperties": 1,
+      "title": "Candles",
+      "type": "object"
+    },
+    "fundamentals": {
+      "additionalProperties": true,
+      "title": "Fundamentals",
+      "type": "object"
+    },
+    "provenance": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Provenance",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "created_at",
+    "instrument",
+    "quote",
+    "candles"
+  ],
+  "title": "Dataset",
+  "type": "object"
+}

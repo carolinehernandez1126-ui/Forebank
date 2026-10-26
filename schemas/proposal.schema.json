@@ -1,0 +1,325 @@
+{
+  "$defs": {
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "pattern": "^https://[^\\s]+$",
+          "title": "Url",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 3,
+          "title": "Title",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "dimension": {
+          "enum": [
+            "technical",
+            "fundamental",
+            "statistical",
+            "macro",
+            "catalyst"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "claim": {
+          "minLength": 10,
+          "title": "Claim",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "title",
+        "retrieved_at",
+        "dimension",
+        "claim"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "ResearchConclusion": {
+      "additionalProperties": false,
+      "properties": {
+        "horizon": {
+          "minLength": 10,
+          "title": "Horizon",
+          "type": "string"
+        },
+        "scope": {
+          "minLength": 30,
+          "title": "Scope",
+          "type": "string"
+        },
+        "cutoff_at": {
+          "format": "date-time",
+          "title": "Cutoff At",
+          "type": "string"
+        },
+        "stopping_reason": {
+          "minLength": 40,
+          "title": "Stopping Reason",
+          "type": "string"
+        },
+        "sufficiency_rationale": {
+          "minLength": 60,
+          "title": "Sufficiency Rationale",
+          "type": "string"
+        },
+        "decision_with_available_information": {
+          "title": "Decision With Available Information",
+          "type": "boolean"
+        },
+        "alternatives_considered": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "title": "Alternatives Considered",
+          "type": "array"
+        },
+        "strategy_coherence": {
+          "minLength": 60,
+          "title": "Strategy Coherence",
+          "type": "string"
+        },
+        "execution_rules": {
+          "minLength": 40,
+          "title": "Execution Rules",
+          "type": "string"
+        },
+        "scenario_analysis": {
+          "minLength": 40,
+          "title": "Scenario Analysis",
+          "type": "string"
+        },
+        "monitoring_plan": {
+          "minLength": 30,
+          "title": "Monitoring Plan",
+          "type": "string"
+        },
+        "gaps": {
+          "items": {
+            "$ref": "#/$defs/ResearchGap"
+          },
+          "title": "Gaps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "horizon",
+        "scope",
+        "cutoff_at",
+        "stopping_reason",
+        "sufficiency_rationale",
+        "decision_with_available_information",
+        "alternatives_considered",
+        "strategy_coherence",
+        "execution_rules",
+        "scenario_analysis",
+        "monitoring_plan",
+        "gaps"
+      ],
+      "title": "ResearchConclusion",
+      "type": "object"
+    },
+    "ResearchGap": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "minLength": 15,
+          "title": "Description",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "material",
+            "minor"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "impact": {
+          "minLength": 20,
+          "title": "Impact",
+          "type": "string"
+        },
+        "mitigation": {
+          "minLength": 20,
+          "title": "Mitigation",
+          "type": "string"
+        },
+        "accepted": {
+          "title": "Accepted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "description",
+        "severity",
+        "impact",
+        "mitigation",
+        "accepted"
+      ],
+      "title": "ResearchGap",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "2",
+      "default": "2",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "plan_id": {
+      "minLength": 3,
+      "title": "Plan Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "expires_at": {
+      "format": "date-time",
+      "title": "Expires At",
+      "type": "string"
+    },
+    "symbol": {
+      "title": "Symbol",
+      "type": "string"
+    },
+    "side": {
+      "const": "buy",
+      "default": "buy",
+      "title": "Side",
+      "type": "string"
+    },
+    "dataset_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Dataset Sha256",
+      "type": "string"
+    },
+    "account_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Account Sha256",
+      "type": "string"
+    },
+    "policy_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Policy Sha256",
+      "type": "string"
+    },
+    "entry": {
+      "exclusiveMinimum": 0,
+      "title": "Entry",
+      "type": "number"
+    },
+    "stop": {
+      "exclusiveMinimum": 0,
+      "title": "Stop",
+      "type": "number"
+    },
+    "target": {
+      "exclusiveMinimum": 0,
+      "title": "Target",
+      "type": "number"
+    },
+    "quantity": {
+      "exclusiveMinimum": 0,
+      "title": "Quantity",
+      "type": "number"
+    },
+    "thesis": {
+      "minLength": 20,
+      "title": "Thesis",
+      "type": "string"
+    },
+    "invalidation": {
+      "minLength": 20,
+      "title": "Invalidation",
+      "type": "string"
+    },
+    "technical_summary": {
+      "minLength": 20,
+      "title": "Technical Summary",
+      "type": "string"
+    },
+    "fundamental_summary": {
+      "minLength": 20,
+      "title": "Fundamental Summary",
+      "type": "string"
+    },
+    "statistical_summary": {
+      "minLength": 20,
+      "title": "Statistical Summary",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "minItems": 3,
+      "title": "Evidence",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Limitations",
+      "type": "array"
+    },
+    "research": {
+      "$ref": "#/$defs/ResearchConclusion"
+    }
+  },
+  "required": [
+    "plan_id",
+    "created_at",
+    "expires_at",
+    "symbol",
+    "dataset_sha256",
+    "account_sha256",
+    "policy_sha256",
+    "entry",
+    "stop",
+    "target",
+    "quantity",
+    "thesis",
+    "invalidation",
+    "technical_summary",
+    "fundamental_summary",
+    "statistical_summary",
+    "evidence",
+    "limitations",
+    "research"
+  ],
+  "title": "Proposal",
+  "type": "object"
+}

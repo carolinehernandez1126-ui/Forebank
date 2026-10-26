@@ -1,0 +1,33 @@
+[risk]
+# User mandate: capital 50,000; absolute MDL 3%, MDD 6%.
+# Operational limits are lower. USD remains provisional until currency is confirmed.
+account_mode = "own_capital_spot"
+quote_currency = "USD"
+policy_verified = false
+initial_capital = 50000.0
+hard_daily_loss_fraction = 0.03
+hard_max_drawdown_fraction = 0.06
+min_bars = 250
+required_intervals = [60, 240, 1440]
+daily_loss_fraction = 0.02
+per_trade_fraction = 0.0025
+max_total_stop_risk_fraction = 0.005
+max_gross_exposure_fraction = 0.50
+max_asset_exposure_fraction = 0.20
+max_drawdown_fraction = 0.04
+safety_buffer_fraction = 0.20
+min_reward_risk = 2.0
+fee_bps_per_side = 40.0
+slippage_bps_per_side = 15.0
+max_spread_bps = 20.0
+max_entry_deviation_fraction = 0.01
+max_depth_participation_fraction = 0.01
+max_account_age_seconds = 300
+max_market_age_seconds = 120
+max_review_age_seconds = 3600
+max_plan_lifetime_seconds = 3600
+daily_reset_utc = "00:00"
+
+[research]
+intervals = [60, 240, 1440]
+fred_series = ["DFF", "DGS10", "DTWEXBGS", "VIXCLS"]

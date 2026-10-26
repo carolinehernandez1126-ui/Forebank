@@ -1,0 +1,78 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "reviewer": {
+      "enum": [
+        "codex",
+        "claude"
+      ],
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "model": {
+      "minLength": 2,
+      "title": "Model",
+      "type": "string"
+    },
+    "reviewed_at": {
+      "format": "date-time",
+      "title": "Reviewed At",
+      "type": "string"
+    },
+    "proposal_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Proposal Sha256",
+      "type": "string"
+    },
+    "verdict": {
+      "enum": [
+        "approve",
+        "reject",
+        "abstain"
+      ],
+      "title": "Verdict",
+      "type": "string"
+    },
+    "rationale": {
+      "minLength": 30,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "independently_checked_sources": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Independently Checked Sources",
+      "type": "array"
+    },
+    "blockers": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Blockers",
+      "type": "array"
+    },
+    "uncertainty_accepted": {
+      "default": false,
+      "title": "Uncertainty Accepted",
+      "type": "boolean"
+    },
+    "strategy_coherence_confirmed": {
+      "default": false,
+      "title": "Strategy Coherence Confirmed",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "reviewer",
+    "model",
+    "reviewed_at",
+    "proposal_sha256",
+    "verdict",
+    "rationale",
+    "independently_checked_sources"
+  ],
+  "title": "Review",
+  "type": "object"
+}

@@ -1,0 +1,17 @@
+# Examples only. Replace/add actual requested assets with stable provider identifiers.
+[[assets]]
+symbol = "BTC/USD"
+kraken_pair = "XBTUSD"
+coingecko_id = "bitcoin"
+
+[[assets]]
+symbol = "ETH/USD"
+kraken_pair = "ETHUSD"
+coingecko_id = "ethereum"
+defillama_chain = "Ethereum"
+
+[[assets]]
+symbol = "SOL/USD"
+kraken_pair = "SOLUSD"
+coingecko_id = "solana"
+defillama_chain = "Solana"
