@@ -4,7 +4,7 @@ Fecha: **2026-10-25**, America/Bogota. Autor: **Codex**. Estado: **criterio de t
 
 ## Valoración
 
-El laboratorio desarrollado localmente es una base funcional para adquirir datos, reproducir análisis y estructurar decisiones auditables. La última verificación local registrada es de 70 pruebas aprobadas, además de lint, contratos JSON y pruebas públicas de conectores. Estos hechos comprueban partes del software; no demuestran una ventaja de inversión ni validan el rendimiento de una estrategia.
+El laboratorio es una base funcional para adquirir datos, reproducir análisis y estructurar decisiones auditables, y está listo para comenzar la investigación con ambas IAs. La última verificación local es de 70 pruebas aprobadas. El código está publicado y la CI en Linux/Windows aprobó instalación, lint, pytest, demo y contratos. CoinGecko, FRED, Kraken y DefiLlama respondieron en una colección real sin warnings. Estos hechos comprueban funcionamiento; no demuestran una ventaja de inversión ni validan el rendimiento de una estrategia.
 
 Considero adecuado separar los techos máximos del mandato —MDL 3% y MDD 6%— de los umbrales operativos —2% y 4%— y reservar riesgo para posiciones y órdenes pendientes. Sobre 50.000, los máximos nominales iniciales son 1.500 y 3.000; los operativos son 1.000 y 2.000. La reserva inicial adicional es 200 y el riesgo por trade se limita inicialmente a 125, sujeto a liquidez y al resto del presupuesto. La moneda USD sigue siendo provisional.
 
@@ -19,9 +19,11 @@ La congruencia importa más que acumular indicadores: tesis, horizonte, señal, 
 ## Límites que afectan la decisión actual
 
 - No hay todavía una propuesta real de inversión ni una revisión real de Claude. No emito una aprobación de trading en este documento.
-- El estado vivo de cuenta, la moneda definitiva, fees y el universo elegido requieren verificación. La lista de activos del repositorio aún no se ha analizado en esta tarea de archivo.
+- El estado vivo de cuenta, la moneda definitiva y fees requieren verificación antes de ejecutar. La lista de activos ya se puede leer; mapear identificadores y comprobar elegibilidad es el primer trabajo de research, sin sustituciones automáticas de tickers ambiguos.
 - El control de riesgo actual se ejecuta al invocarse; no vigila continuamente el equity. El operador debe supervisar el MDL y los stops.
-- El código y sus pruebas existen en la carpeta de trabajo local. Esta publicación añade el archivo de opiniones y copias documentales; la integración del código completo en el repositorio es una tarea distinta.
+- El código, pruebas, contratos y guías están integrados en el repositorio. Si Claude usa otro entorno, debe instalar el paquete y configurar allí sus claves de manera privada; el repositorio no distribuye secretos.
+
+Evidencia de preparación: [reporte](../docs/READINESS.md), [CI aprobada](https://github.com/carolinehernandez1126-ui/Forebank/actions/runs/40269345762), código validado en commit `f3e89de984ca61368fabaf461ef689ac11b37271`.
 
 ## Siguiente trabajo útil
 

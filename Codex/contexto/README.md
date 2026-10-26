@@ -10,4 +10,4 @@ Estas son copias de los documentos técnicos vigentes en la entrega local al cre
 - [Estándar de decisión](DECISION_STANDARD.md)
 - [Instrucciones para Claude](CLAUDE.md)
 
-Las referencias a `src/`, `schemas/`, `config/`, `docs/` o comandos del Lab describen el proyecto local original; el código completo todavía no está integrado en la raíz de Forebank en esta publicación. Las respuestas históricas se conservan con su fecha y correcciones.
+Estas copias corresponden al momento de crear el archivo inicial de Codex y se conservan como contexto histórico. Posteriormente se integró el código completo en la raíz de Forebank. La documentación vigente está en [docs/](../../docs/STATUS.md); para comenzar usar [START_RESEARCH.md](../../docs/START_RESEARCH.md). Las respuestas históricas se conservan con su fecha y correcciones.

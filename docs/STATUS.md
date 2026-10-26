@@ -19,8 +19,8 @@ Mandato actualizado por el propietario: capital **50.000**, MDL máximo **3%**, 
 - Gate de dos revisores diferentes, mismo hash, vigencia y ausencia de blockers. Plantillas de revisión en abstención, sin firmas ficticias.
 - Propuesta v2 con suficiencia de información, cierre de investigación, horizonte, escenarios, alternativas, congruencia y matriz de gaps. Admite incertidumbre material aceptada; no exige información perfecta.
 - Revisiones con aceptación expresa de incertidumbre y confirmación de coherencia; `decide` escribe resumen detallado `.md` además del JSON, aun en WAIT.
-- Documentación, mandatos de especialistas, instrucciones AGENTS.md/CLAUDE.md, plantillas de resultados y CI offline Linux/Windows preparada.
-- Repositorio Git local inicializado en `main`; destino real confirmado: `carolinehernandez1126-ui/Forebank`. Usuario de trabajo: `jsforeroc80-debug`, colaborador. Se publicó la carpeta Codex en main; la integración del código completo del Lab sigue pendiente.
+- Documentación, mandatos de especialistas, instrucciones AGENTS.md/CLAUDE.md, plantillas de resultados y CI offline Linux/Windows ejecutada y aprobada.
+- Repositorio Git local inicializado en `main`; destino real confirmado: `carolinehernandez1126-ui/Forebank`. Usuario de trabajo: `jsforeroc80-debug`, colaborador. Código del Lab, contratos, pruebas y guía de inicio publicados en main, además del archivo Codex.
 
 ## Verificado localmente
 
@@ -32,11 +32,15 @@ Mandato actualizado por el propietario: capital **50.000**, MDL máximo **3%**, 
 - Backtest real de la ventana pública BTC y correlaciones BTC/ETH. Estas ejecuciones comprueban funcionamiento, **no validan una estrategia para operar**.
 - Los outputs reales permanecen en `data/smoke-*.json` y `outputs/smoke-*`, fuera de Git; ejemplos compartibles son exclusivamente sintéticos.
 
-La validación TLS utiliza el almacén del sistema; no se desactivó verificación de certificados. No se ejecutaron órdenes ni se consultaron cuentas privadas. El workflow remoto de GitHub todavía no se ha ejecutado.
+La validación TLS utiliza el almacén del sistema; no se desactivó verificación de certificados. No se ejecutaron órdenes ni se consultaron cuentas privadas. El [workflow remoto de GitHub](https://github.com/carolinehernandez1126-ui/Forebank/actions/runs/40269345762) finalizó con success en Linux y Windows: instalación de dependencias y del paquete, lint, pytest, demo y contratos JSON aprobados.
 
 Acceso GitHub probado con GH_TOKEN local: identidad **jsforeroc80-debug**, repositorio **carolinehernandez1126-ui/Forebank**, público y activo, rama principal **main**, permisos de lectura y escritura confirmados por la API (sin administración). La prueba fue solo de lectura; no publicó cambios ni modificó la sesión global. El token no se mostró ni se incorporó al repo.
 
 Publicación posterior autorizada: carpeta **Codex/**, con 20 documentos de respuestas, opinión actual, protocolo de registro y copias de contexto. Commit **e41c4fe93aa77c30ee633e5d741758193e03ab11**, creado como jsforeroc80-debug sobre el historial remoto existente, sin force-push. Se verificaron todos los hashes de los nuevos archivos y la preservación de las 4 entradas existentes del árbol, incluyendo README y lista de activos Excel. No se publicó código del Lab, .env, cuentas, bases de datos ni snapshots privados en esta operación. La revisión documental no detectó enlaces internos rotos ni patrones de credenciales.
+
+Integración posterior del Lab: commit **f3e89de984ca61368fabaf461ef689ac11b37271**, 61 archivos verificados. Se preservaron los archivos existentes; README y .gitignore se integraron conservando su contenido anterior. Claves y resultados privados se excluyeron y se verificó que los valores de credenciales no aparecieran en dataset, dossier ni caché de la prueba enriquecida.
+
+**Preparación actual: listo para iniciar investigación y diseño de estrategias.** Ver docs/START_RESEARCH.md y docs/READINESS.md. El mapeo de identificadores del universo es la primera tarea de investigación, no una afirmación de elegibilidad automática de todos los tickers. La cuenta no reconciliada impide aprobar una ejecución, pero no impide iniciar research.
 
 ## Pendiente del propietario
 

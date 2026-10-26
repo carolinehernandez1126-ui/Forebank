@@ -25,6 +25,7 @@ Se conserva el contenido de las respuestas finales sustantivas de esta conversac
 | [05 — Repositorio compartido](respuestas/2026-10-25-05-repositorio-compartido.md) | URL real y autenticación como colaborador | Vigente; nunca publicar tokens |
 | [06 — Prueba de acceso](respuestas/2026-10-25-06-prueba-de-acceso.md) | Identidad y permisos verificados | Comprobación histórica de solo lectura |
 | [07 — Publicación del archivo](respuestas/2026-10-25-07-archivo-codex.md) | Creación de este directorio | Entrega del archivo |
+| [08 — Preparación del Lab](respuestas/2026-10-25-08-preparacion-del-lab.md) | Código publicado, APIs y CI comprobadas | Listo para iniciar investigación |
 
 ## Opiniones y contexto
 
@@ -32,5 +33,6 @@ Se conserva el contenido de las respuestas finales sustantivas de esta conversac
 - [Protocolo de registro](PROTOCOLO_REGISTRO.md): cómo guardar respuestas futuras y sus correcciones.
 - [Plantilla para nuevas opiniones](PLANTILLA_OPINION.md).
 - [Contexto del laboratorio](contexto/README.md): documentación técnica y metodológica de la entrega local.
+- [Guía de inicio para ambas IAs](../docs/START_RESEARCH.md) y [verificación de preparación](../docs/READINESS.md).
 
 Las opiniones son de Codex. Los registros de acceso no constituyen una revisión de trading. Las guías históricas conservadas se interpretan con sus correcciones y no sustituyen las instrucciones actuales.
