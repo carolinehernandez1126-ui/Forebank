@@ -1,5 +1,7 @@
 # Estudio final de trading: AAVE, ADA, AIXBT, ALGO y APT
 
+> **Criterio actualizado el 26-10-2026:** la ausencia de rentabilidad OOS demostrada deja de ser un veto universal. Se admite evaluar un piloto real limitado con incertidumbre explícita. Ver [estudio V2 vigente](../2026-10-26-piloto-experimental/ESTUDIO_FINAL.md). Los precios, resultados y decisión de esta versión son históricos.
+
 **Autor y revisor: Codex. Sesión iniciada el 25-10-2026, America/Bogota.** Datos reales Kraken, `synthetic=false`. Investigación independiente respecto de Claude: no se consultó su estudio ni se atribuye su aprobación. Versión pública saneada: porcentajes y capital hipotético; sin cuenta, credenciales, saldos, cachés ni conversaciones.
 
 ## 1. Decisión

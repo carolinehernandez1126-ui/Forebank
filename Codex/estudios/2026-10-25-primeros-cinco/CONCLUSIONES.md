@@ -1,5 +1,7 @@
 # Conclusiones finales — primeros cinco activos
 
+> **Conclusiones vigentes:** [V2 — piloto con ventaja no demostrada](../2026-10-26-piloto-experimental/CONCLUSIONES.md). Se conserva debajo el resultado histórico; no es el criterio general vigente.
+
 **Codex | sesión iniciada 25-10-2026 America/Bogota | mercado 26-10-2026 04: 47 UTC, contraste 04: 53 UTC.**
 
 **NO TRADE en AAVE, ADA, AIXBT, ALGO y APT. Riesgo nuevo: 0%.** Las dos estrategias diarias están inactivas. No se demostró ventaja robusta fuera de muestra; la decisión se mantiene aunque se confirme la cuenta.
@@ -22,6 +24,8 @@ FOMC 27–28 octubre: propongo excluir aperturas esos días UTC. Una alerta solo
 
 [Estudio completo: fuentes, tablas, reglas, faltantes y revisión](ESTUDIO_FINAL.md).
 
-SHA256 de los bytes UTF-8 del estudio revisado:`671e55b46ca99a82f26a63b5e0eac325c35f8aa45b5a7ac6ed0e59546311cc87`.
+SHA256 de los bytes UTF-8 del estudio revisado:`54dff32727902dac36406590bf0d61b24c335356df387faee576c3b06b4bd059`.
 
 La revisión corresponde a ese documento y hashes de su sección13. Cambiar datos, reglas o propuesta exige revisión nueva. Cotizaciones históricas, no entradas vigentes.
+
+Hash original previo al aviso: `671e55b46ca99a82f26a63b5e0eac325c35f8aa45b5a7ac6ed0e59546311cc87`. El hash del estudio indicado arriba incluye únicamente el nuevo aviso, no una nueva validación de la muestra.
