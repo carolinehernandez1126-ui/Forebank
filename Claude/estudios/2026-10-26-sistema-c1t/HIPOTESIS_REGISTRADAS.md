@@ -31,3 +31,7 @@ C1 seleccionado según la regla, pero su simulación de cartera viola MDD 4% con
 
 ## Adenda 2 (antes de correrlo)
 Prueba adicional fuera de muestra SIN cambios: C1 y C1T aplicados a las filas 12-16 de la lista (BNB, BONK, BTC, CVR, DOGE), periodo completo disponible. No se seleccionan activos según el resultado; solo informa si el patrón (ventaja sin trailing / sin ventaja útil con trailing) se repite.
+
+## Adenda 3 (2026-10-26, antes de correrlo) — filas 12-31
+C1T congelado (sin cambios de parámetros) aplicado a BNB, BONK, BTC, CVR, DOGE, DOT, ENA, ETC, ETH, ETHFI, FARTCOIN, FIL, FLOKI, GRASS, HBAR, HYPE, ICP, INJ, JTO, JUP.
+Filas 17-31 nunca vistas: prueba fuera de muestra real. Se reporta pooled por periodos (train ≤2022, val 2023→2024-11-04, holdout 2024-11-05→). Universo operable = regla de liquidez Kraken ya fijada (spread ≤20 bps, mediana volumen diario ≥250k USD). Ningún parámetro se ajusta con estos resultados.

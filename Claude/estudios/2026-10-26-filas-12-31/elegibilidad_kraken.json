@@ -1,0 +1,174 @@
+{
+ "BNB": {
+  "pair": "BNBUSD",
+  "status": "online",
+  "spread": 0.13477179765350042,
+  "vol": 1225379.11913625,
+  "depth10": 42336.374749999995,
+  "eligible": true,
+  "bars": 552
+ },
+ "BONK": {
+  "pair": "BONKUSD",
+  "status": "online",
+  "spread": 3.3338889814971666,
+  "vol": 613578.0897247863,
+  "depth10": 8908.321906944775,
+  "eligible": true,
+  "bars": 720
+ },
+ "BTC": {
+  "pair": "XXBTZUSD",
+  "status": "online",
+  "spread": 0.012456069000552284,
+  "vol": 180190015.9506943,
+  "depth10": 7383521.9019,
+  "eligible": true,
+  "bars": 720
+ },
+ "CVR": null,
+ "DOGE": {
+  "pair": "XDGUSD",
+  "status": "online",
+  "spread": 0.012943048644879059,
+  "vol": 4286274.292266956,
+  "depth10": 128379.2582606942,
+  "eligible": true,
+  "bars": 720
+ },
+ "DOT": {
+  "pair": "DOTUSD",
+  "status": "online",
+  "spread": 2.9358516416300526,
+  "vol": 1783327.392919337,
+  "depth10": 27144.315369699998,
+  "eligible": true,
+  "bars": 720
+ },
+ "ENA": {
+  "pair": "ENAUSD",
+  "status": "online",
+  "spread": 9.638554216867744,
+  "vol": 3801975.7987469034,
+  "depth10": 37687.8846435,
+  "eligible": true,
+  "bars": 720
+ },
+ "ETC": {
+  "pair": "XETCZUSD",
+  "status": "online",
+  "spread": 17.16284903294051,
+  "vol": 115671.77177062642,
+  "depth10": 85.397344,
+  "eligible": false,
+  "bars": 720
+ },
+ "ETH": {
+  "pair": "XETHZUSD",
+  "status": "online",
+  "spread": 0.04286390923037221,
+  "vol": 60611583.915996745,
+  "depth10": 1872465.97639,
+  "eligible": true,
+  "bars": 720
+ },
+ "ETHFI": {
+  "pair": "ETHFIUSD",
+  "status": "online",
+  "spread": 15.642108556233394,
+  "vol": 163394.329645345,
+  "depth10": 2515.6511668,
+  "eligible": false,
+  "bars": 720
+ },
+ "FARTCOIN": {
+  "pair": "FARTCOINUSD",
+  "status": "online",
+  "spread": 15.873015873014126,
+  "vol": 1075631.747862973,
+  "depth10": 10306.9382285,
+  "eligible": true,
+  "bars": 641
+ },
+ "FIL": {
+  "pair": "FILUSD",
+  "status": "online",
+  "spread": 10.946907498631646,
+  "vol": 1469300.1869794154,
+  "depth10": 22262.886616,
+  "eligible": true,
+  "bars": 720
+ },
+ "FLOKI": {
+  "pair": "FLOKIUSD",
+  "status": "online",
+  "spread": 13.11475409835979,
+  "vol": 50921.04333668262,
+  "depth10": 1941.0986998283202,
+  "eligible": false,
+  "bars": 720
+ },
+ "GRASS": {
+  "pair": "GRASSUSD",
+  "status": "online",
+  "spread": 29.00352185622527,
+  "vol": 576394.0455992275,
+  "depth10": 7502.9828486,
+  "eligible": false,
+  "bars": 637
+ },
+ "HBAR": {
+  "pair": "HBARUSD",
+  "status": "online",
+  "spread": 3.8538120624320444,
+  "vol": 2158676.3484405484,
+  "depth10": 17518.0139892,
+  "eligible": true,
+  "bars": 473
+ },
+ "HYPE": {
+  "pair": "HYPEUSD",
+  "status": "online",
+  "spread": 2.578316359416788,
+  "vol": 9732281.558583803,
+  "depth10": 139548.92105,
+  "eligible": true,
+  "bars": 271
+ },
+ "ICP": {
+  "pair": "ICPUSD",
+  "status": "online",
+  "spread": 7.65990042129538,
+  "vol": 1581380.5552148728,
+  "depth10": 3929.001152,
+  "eligible": true,
+  "bars": 720
+ },
+ "INJ": {
+  "pair": "INJUSD",
+  "status": "online",
+  "spread": 7.730962504832145,
+  "vol": 2106595.0118775917,
+  "depth10": 12929.768554,
+  "eligible": true,
+  "bars": 720
+ },
+ "JTO": {
+  "pair": "JTOUSD",
+  "status": "online",
+  "spread": 8.634873219056965,
+  "vol": 343271.0703614035,
+  "depth10": 782.36429554,
+  "eligible": true,
+  "bars": 720
+ },
+ "JUP": {
+  "pair": "JUPUSD",
+  "status": "online",
+  "spread": 11.705240755519979,
+  "vol": 1163482.382073355,
+  "depth10": 5484.4546313499995,
+  "eligible": true,
+  "bars": 720
+ }
+}
