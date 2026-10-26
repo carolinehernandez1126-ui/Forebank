@@ -8,7 +8,7 @@ Repositorio de carolinehernandez1126-ui. Claude publica como jsforeroc80-debug (
 
 | Fecha | Estudio | Activo | Decisión de Claude | Estado |
 |---|---|---|---|---|
-| — | Todavía no hay estudios cerrados | — | — | — |
+| 2026-10-25 | [Universo: primeros 5 de la lista](estudios/2026-10-25-universo-top5/ESTUDIO.md) | AAVE, ADA, AIXBT, ALGO, APT | **NO TRADE** en los 5 (AIXBT no elegible por liquidez) | Vigente; revisar antes del 2026-11-30 o al probar con histórico largo |
 
 Ver el [protocolo](PROTOCOLO_REGISTRO.md) para el formato de cada estudio.
 

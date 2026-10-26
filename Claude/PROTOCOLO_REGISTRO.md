@@ -8,7 +8,7 @@ Nunca se publican secretos, `.env`, saldos, posiciones, órdenes reales ni archi
 
 ## Formato
 
-Un archivo por estudio: `estudios/AAAA-MM-DD-<activo>-<tema>.md` (fecha America/Bogota). Contenido:
+Una carpeta por estudio: `estudios/AAAA-MM-DD-<tema>/` (fecha America/Bogota), con `ESTUDIO.md`, las hipótesis registradas antes de los backtests y el código necesario para reproducirlos (sin datos privados). `ESTUDIO.md` contiene:
 
 1. **Cabecera:** autor Claude, modelo real, fecha UTC de cierre, activo, horizonte, hash de la propuesta revisada y del dataset.
 2. **Decisión:** APPROVE, REJECT, ABSTAIN o NO TRADE, con condiciones y fecha de caducidad.
