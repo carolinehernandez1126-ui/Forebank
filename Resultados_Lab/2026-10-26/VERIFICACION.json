@@ -1,0 +1,46 @@
+{
+  "verified_at_utc": "2026-10-27T01:08:36.445452+00:00",
+  "integrity": {
+    "status": "PASS",
+    "archives": 6,
+    "members_checked": 1254,
+    "dataset_snapshots": 75,
+    "claude_dataset_snapshots": 11,
+    "primary_spot_assets": 68,
+    "input_rows": 70,
+    "provider_envelopes_checked": 903,
+    "network_used": false,
+    "account_data_included": false,
+    "claude_authorized_research_included": true,
+    "claude_strategy_replay_performed": false
+  },
+  "offline_reproduction": {
+    "status": "PASS",
+    "reference_segments_replayed": 530,
+    "pilot_Q_cases_replayed": 122,
+    "P1_assessments_checked": 5,
+    "network_used": false,
+    "claude_private_runs_replayed": false
+  },
+  "regression_tests": {
+    "passed": 70,
+    "failed": 0,
+    "command": "python -m pytest -q",
+    "source_ref": "a2c4f006983a4ae15bbc35d07e38f8e55e6c160f",
+    "lint_src_tests": "PASS",
+    "lint_export_scripts": "PASS"
+  },
+  "privacy": {
+    "credential_values_scanned_in_each_member": true,
+    "account_or_journal_exported": false,
+    "local_claude_private_directory_read": true,
+    "third_party_narrative_fields_omitted_with_manifest": true,
+    "claude_read_scope": "Explicitly authorized research under private/claude only; sources table only, no journal or WAL."
+  },
+  "limits": [
+    "Reproduction checks equality with stored results, not profitability or independent statistical edge.",
+    "Authorized sanitized Claude research is included; its strategy runs have NOT been replayed by this exporter.",
+    "Claude long histories use Binance spot USDT, not Kraken USD; available inputs do not establish complete 70-asset raw-run coverage.",
+    "Historical datasets are not authorization for live execution."
+  ]
+}

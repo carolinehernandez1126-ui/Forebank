@@ -1,0 +1,3029 @@
+{
+  "snapshot_date": "2026-10-26",
+  "primary_rows": [
+    {
+      "row": 2,
+      "asset": "AAVE",
+      "group": "initial",
+      "dataset_member": "codex/data/AAVE.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "c5fc5a80a43510da4f422789902fecde52f46414352706bdcd4d470d9062a96c",
+      "dossier_member": "codex/outputs/AAVE/dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/strategy-study.json",
+      "created_at": "2026-10-26T04:47:22.772650+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 3,
+      "asset": "ADA",
+      "group": "initial",
+      "dataset_member": "codex/data/ADA.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "566115b6c68904687641e53d995a0d65787e9fab6ceb9c9cf3c84a695063b856",
+      "dossier_member": "codex/outputs/ADA/dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/strategy-study.json",
+      "created_at": "2026-10-26T04:47:27.446664+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 4,
+      "asset": "AIXBT",
+      "group": "initial",
+      "dataset_member": "codex/data/AIXBT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "26b5043aa0ced21ad16b553ccbc6f95cdc229b6776d29fc7fbaeb85ee00753bc",
+      "dossier_member": "codex/outputs/AIXBT/dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/strategy-study.json",
+      "created_at": "2026-10-26T04:47:32.072416+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 612
+      }
+    },
+    {
+      "row": 5,
+      "asset": "ALGO",
+      "group": "initial",
+      "dataset_member": "codex/data/ALGO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "4df10e63170189fd4ccb49df0d80ad8a30047444b09fd43646c585e7b8074e14",
+      "dossier_member": "codex/outputs/ALGO/dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/strategy-study.json",
+      "created_at": "2026-10-26T04:47:40.276392+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 6,
+      "asset": "APT",
+      "group": "initial",
+      "dataset_member": "codex/data/APT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "5fb419714e6c403f88189194919141bc242c6ea7ded14830a7985f6e102a54da",
+      "dossier_member": "codex/outputs/APT/dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/strategy-study.json",
+      "created_at": "2026-10-26T04:47:48.502467+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 7,
+      "asset": "ARB",
+      "group": "second",
+      "dataset_member": "codex/data/second-five-20261026/ARB.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9b4aa76f94a8c4ad6f06963da5d7f221d8eaa0510534361b412fa67f194a4316",
+      "dossier_member": "codex/outputs/second-five-20261026/ARB-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/second-five-20261026/strategy-study.json",
+      "created_at": "2026-10-26T11:50:46.073346+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 8,
+      "asset": "ASTER",
+      "group": "second",
+      "dataset_member": "codex/data/second-five-20261026/ASTER.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "1287dde17e0d585fa27664e3c108cab9ae92fa82616dcdd7c95bf6d3e18dc97b",
+      "dossier_member": "codex/outputs/second-five-20261026/ASTER-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/second-five-20261026/strategy-study.json",
+      "created_at": "2026-10-26T11:50:51.333145+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 371
+      }
+    },
+    {
+      "row": 9,
+      "asset": "ATOM",
+      "group": "second",
+      "dataset_member": "codex/data/second-five-20261026/ATOM.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "eb06c923006e3cc20448f581cd39b0133f5389bb9e12b300035e8e3017ada7cd",
+      "dossier_member": "codex/outputs/second-five-20261026/ATOM-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/second-five-20261026/strategy-study.json",
+      "created_at": "2026-10-26T11:50:59.194606+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 10,
+      "asset": "AVAX",
+      "group": "second",
+      "dataset_member": "codex/data/second-five-20261026/AVAX.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "4d2a99ddeb7dc37a6349d751e9e26069563c1316f63a0c23401909f91019d2ce",
+      "dossier_member": "codex/outputs/second-five-20261026/AVAX-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/second-five-20261026/strategy-study.json",
+      "created_at": "2026-10-26T11:51:07.256286+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 11,
+      "asset": "BCH",
+      "group": "second",
+      "dataset_member": "codex/data/second-five-20261026/BCH.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "d812b5b2aea76c031b6f7207cc173ff2dc4c6954a32e265279d54c3991633f70",
+      "dossier_member": "codex/outputs/second-five-20261026/BCH-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/second-five-20261026/strategy-study.json",
+      "created_at": "2026-10-26T11:51:15.098372+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 12,
+      "asset": "BNB",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/BNB.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "57ff56ad4a510d8248bdf14caf20c8de3a8f64adf123b3d3cc3daae6f5db5e59",
+      "dossier_member": "codex/outputs/next-twenty-20261026/BNB-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:28:50.682363+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 552
+      }
+    },
+    {
+      "row": 13,
+      "asset": "BONK",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/BONK.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "d388dc30422bd374916acd52bc2cb04e05181e3ab84bc90658c2f65e91408677",
+      "dossier_member": "codex/outputs/next-twenty-20261026/BONK-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:28:56.008047+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 14,
+      "asset": "BTC",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/BTC.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "510cb8083ac9554f50a983738cebe1b08c18d3590127ff88b0013cc359f8e074",
+      "dossier_member": "codex/outputs/next-twenty-20261026/BTC-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:03.875209+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 15,
+      "asset": "CRV",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/CRV.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "d3e828b460610dc3b1948c95e4458d43af2e2ee64049eeb89cbb4910046a8e66",
+      "dossier_member": "codex/outputs/next-twenty-20261026/CRV-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:12.048281+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 16,
+      "asset": "DOGE",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/DOGE.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "8f5272452a6807818ea6edd89a293cd49a27ac70e2cf867868d5d27b7a0cd3f8",
+      "dossier_member": "codex/outputs/next-twenty-20261026/DOGE-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:19.661723+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 17,
+      "asset": "DOT",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/DOT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "a21a260533cb7eb820a2284370a437bfa71b72d04b3417e3a3629c735d0d38e8",
+      "dossier_member": "codex/outputs/next-twenty-20261026/DOT-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:27.619092+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 18,
+      "asset": "ENA",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/ENA.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "70e60b9240e4d5fd7cbc8a80dbef580374b382ad6b8efddd872b6581cb1257ad",
+      "dossier_member": "codex/outputs/next-twenty-20261026/ENA-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:35.492634+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 19,
+      "asset": "ETC",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/ETC.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "c6aae9a6b6b75d3aa121a7fed3c5343d90512149f4ed50df19410b458c9feb7c",
+      "dossier_member": "codex/outputs/next-twenty-20261026/ETC-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:43.532635+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 20,
+      "asset": "ETH",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/ETH.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "a5f860c1e02b03e1df920ee72c6bdfd7e5d680eeb0807638fcf0a1f18071284d",
+      "dossier_member": "codex/outputs/next-twenty-20261026/ETH-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:51.605333+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 21,
+      "asset": "ETHFI",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/ETHFI.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "d1dd2a2017b95d11207fefdba0e0528dbca255e5705f377fe944c307f22cdf1a",
+      "dossier_member": "codex/outputs/next-twenty-20261026/ETHFI-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:29:59.341608+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 22,
+      "asset": "FARTCOIN",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/FARTCOIN.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9c1e98463ba7d484a2158b4a8580512f6201a7ec90b02f420e8b8343f6d07248",
+      "dossier_member": "codex/outputs/next-twenty-20261026/FARTCOIN-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:07.750120+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 641
+      }
+    },
+    {
+      "row": 23,
+      "asset": "FIL",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/FIL.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "336fb053309f4dad45227fb10fdcd61938ea611a5d9009dfdcccb7597e6b659c",
+      "dossier_member": "codex/outputs/next-twenty-20261026/FIL-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:16.484666+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 24,
+      "asset": "FLOKI",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/FLOKI.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "e0c9c95a0d7d4daae0e22bc7c4abec208f7aa4889b11f19e98961667dcbe3cce",
+      "dossier_member": "codex/outputs/next-twenty-20261026/FLOKI-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:23.922020+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 25,
+      "asset": "GRASS",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/GRASS.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "0aeee4d506ca5c23fc77a91b1b427c5f86e6756f2819f776a7f4aaa1429b90cc",
+      "dossier_member": "codex/outputs/next-twenty-20261026/GRASS-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:31.892349+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 637
+      }
+    },
+    {
+      "row": 26,
+      "asset": "HBAR",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/HBAR.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "650e5637019d563f987153b81a3002c5c9b730a363189c2e0b0c10e77bba3878",
+      "dossier_member": "codex/outputs/next-twenty-20261026/HBAR-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:40.056911+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 473
+      }
+    },
+    {
+      "row": 27,
+      "asset": "HYPE",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/HYPE.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "f6d043869a0e1ffaa3939b014f9360331ee910cb8b5150b7cd97ab2343d93ddf",
+      "dossier_member": "codex/outputs/next-twenty-20261026/HYPE-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:47.628444+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 271
+      }
+    },
+    {
+      "row": 28,
+      "asset": "ICP",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/ICP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "b0c68dbb29c6d5f47c1e851721bfb7659334176b341ad3ba528b3e8ab56bf328",
+      "dossier_member": "codex/outputs/next-twenty-20261026/ICP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:30:55.554638+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 29,
+      "asset": "INJ",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/INJ.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "b7beec14f4a42e468a7fac63ad7345c090bc3d9bdeebed247363acfaefccdb5a",
+      "dossier_member": "codex/outputs/next-twenty-20261026/INJ-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:31:03.930280+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 30,
+      "asset": "JTO",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/JTO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "300bb25cbaff4075416e83eeac7239e8edee63ba598b332cebd6cfd623dbee34",
+      "dossier_member": "codex/outputs/next-twenty-20261026/JTO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:31:11.649738+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 31,
+      "asset": "JUP",
+      "group": "third",
+      "dataset_member": "codex/data/next-twenty-20261026/JUP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "a80d5bcf74238778b04b64a377d52138693a6326e3b9f200910c590872188ea9",
+      "dossier_member": "codex/outputs/next-twenty-20261026/JUP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/next-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T12:31:19.417664+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 32,
+      "asset": "KAITO",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/KAITO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "3927ad028e53470e674a4a432325c6b59aa877a3e6a2640cb9e56aa49eb052b3",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/KAITO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:05.048198+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 613
+      }
+    },
+    {
+      "row": 33,
+      "asset": "LDO",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/LDO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "15d3cfcd037999d46a43c68391724786073c3350a73b8bb29610a901e045b1a7",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/LDO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:10.445653+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 34,
+      "asset": "LIGHTER",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/LIGHTER.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "1d24746ea115ad312cfacb76be2325371ee41a573f66ee1a799bf3810d07cec9",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/LIGHTER-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:18.395522+00:00",
+      "bars": {
+        "60": 720,
+        "240": 420,
+        "1440": 70
+      }
+    },
+    {
+      "row": 35,
+      "asset": "LINK",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/LINK.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "ed8f687fbe4b655219b2ad2f976669c4c71d0810af2db927977febe455d5be62",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/LINK-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:26.374951+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 36,
+      "asset": "LIT",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/LIT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "2c1370619cd01f4452cce626d11d27a0ad65af805a2061d03f6685d5a2aacbec",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/LIT-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:34.402735+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 37,
+      "asset": "LTC",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/LTC.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "e216fd514320e69a50b7b6849ce006d67b6bac412a5f233405e7b94c26250daa",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/LTC-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:42.402121+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 38,
+      "asset": "MON",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/MON.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "05154027800e0f2dd21074ab510f24d33a5c190c98873ac4970e0e870229499b",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/MON-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:50.426876+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 336
+      }
+    },
+    {
+      "row": 39,
+      "asset": "MOODENG",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/MOODENG.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "1a924fd01273759cb1b4a5d4d274fdc9baa3608b21750ee2568d9c945b972d22",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/MOODENG-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T17:59:58.348279+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 677
+      }
+    },
+    {
+      "row": 40,
+      "asset": "NEAR",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/NEAR.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "5853cef0476553124a043fd065ba5b773beb4394c2b1c5dc1ebe56f51ec3f92b",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/NEAR-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:00:07.967504+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 41,
+      "asset": "ONDO",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/ONDO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "26573f7235bd2116ad55032c0fd4940d8befe5ffc46e5232b1bd312dde0920c7",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/ONDO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:00:40.615528+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 42,
+      "asset": "OP",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/OP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "fa6bc926c9af5a6ce0cc43994989325f238ccf58f62c717345b61adb2b4fd2ab",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/OP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:00:48.474832+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 43,
+      "asset": "PENDLE",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/PENDLE.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "698b0b05684f555706e91c44b33443deae7aa9605781991311f28cf6674dfac8",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/PENDLE-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:00:56.845034+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 44,
+      "asset": "PENGU",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/PENGU.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "8ed045092511eeddc261035a737a3782dba628f5d9a919a3443e657c8f254228",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/PENGU-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:04.575750+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 636
+      }
+    },
+    {
+      "row": 45,
+      "asset": "PEPE",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/PEPE.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "fc96a83a4c1df9d5f2e1955e2eb4b182cfb5997cac8060aff5cda0120edf4d06",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/PEPE-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:12.512359+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 46,
+      "asset": "PNUT",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/PNUT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "8f07bd804c2ec593301a3bdac7ac510dc67405f78dd178c6417e50b2a885ef64",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/PNUT-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:20.547386+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 677
+      }
+    },
+    {
+      "row": 47,
+      "asset": "POL",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/POL.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9df6a5b89564b82c99af4bd3983d7d18bd7ba4f07706be08533c91fafd96f963",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/POL-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:29.540301+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 48,
+      "asset": "POPCAT",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/POPCAT.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "160612fdafff3650f16f1b36cf2412667a9c01b99d2748193eee61b0d7a7b473",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/POPCAT-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:36.518719+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 49,
+      "asset": "PUMP",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/PUMP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "d5d9a687ad9d4aab486ddcbad62feceda5c71640ae41c7efb93af4b719add8d7",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/PUMP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:44.337796+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 469
+      }
+    },
+    {
+      "row": 50,
+      "asset": "RENDER",
+      "group": "fourth",
+      "dataset_member": "codex/data/fourth-twenty-20261026/RENDER.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "6d94e0b0aceff600ef72ed9f2805616bb2715e975e959a64f49ea4d805e7f921",
+      "dossier_member": "codex/outputs/fourth-twenty-20261026/RENDER-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fourth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:01:52.348738+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 51,
+      "asset": "SP",
+      "status": "outside spot mandate; no exact Kraken spotUSD pair"
+    },
+    {
+      "row": 52,
+      "asset": "S",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/S.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "ca7027bd7f5a9aecba09cee4536f0b48ec1c223031959acb9948432eb539b6ba",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/S-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:05.204881+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 539
+      }
+    },
+    {
+      "row": 53,
+      "asset": "SHIB",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/SHIB.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9ebf0f7362f70dc98717e268b977ccf0c8d69b670561bf5bd7a6738a0d4ccfec",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/SHIB-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:10.373092+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 54,
+      "asset": "SOL",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/SOL.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "f7f4d66bae5e0614ace628e09fdd0c62f742771e36421af3c98eed321d0acf5a",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/SOL-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:18.518188+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 55,
+      "asset": "STX",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/STX.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "1d83c1333cf1c20850a81dc5a7c39cd68947a45ebb0a7bbbc9eb063d0122b020",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/STX-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:26.317796+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 56,
+      "asset": "SUI",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/SUI.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "4ff8a63bb3db5a611be7b4f79bccbbee2305612fbd3f699950154f5a240801b6",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/SUI-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:34.610683+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 57,
+      "asset": "TAO",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/TAO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "e7d52338dc85c721c84c3413b45d36a6e7ff4ebddd2a89b3f5e0f91764ad09ca",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/TAO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:42.162598+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 58,
+      "asset": "TIA",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/TIA.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "34ce95b49aca6c8bdec3b715e9fc0d2b0cca8be0784fa07188dc298e17f8523d",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/TIA-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:50.223710+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 59,
+      "asset": "TON",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/TON.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "0fa77bd5fd09d3396662b3b07a376748a88ca2aef1ab2895c52d43125e46381c",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/TON-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:02:58.048023+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 60,
+      "asset": "TRUMP",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/TRUMP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9151bf98ff9a0874181091a062689a81a49145508e023258540220ca0e1d2a91",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/TRUMP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:06.142874+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 646
+      }
+    },
+    {
+      "row": 61,
+      "asset": "TRX",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/TRX.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "779ecb70743236ff03dd389803d859ea634a7874eafdb4cd59219a8312d3be0b",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/TRX-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:14.275105+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 62,
+      "asset": "UNI",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/UNI.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "e76da059ee2ed0274fdec8f42313ae69e521986277520b7f99ee620bbd6bd43f",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/UNI-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:21.943538+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 63,
+      "asset": "VIRTUAL",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/VIRTUAL.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "9f1475e8be2ed89298c647996293a3f710bafa7277f210720562b9fe761fc432",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/VIRTUAL-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:30.061060+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 621
+      }
+    },
+    {
+      "row": 64,
+      "asset": "WIF",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/WIF.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "351203d3efa9d1704c2052a09576c1cabdfa1cb17a79c8d2bf60fbec0e480fa2",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/WIF-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:37.838825+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 65,
+      "asset": "WLD",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/WLD.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "2a3109a33897c875a1e914c6da9da1d9e357a1586131452b2a0bcff4604bd642",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/WLD-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:45.817488+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 600
+      }
+    },
+    {
+      "row": 66,
+      "asset": "XLM",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/XLM.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "a3d8097b1937939f53996ab51b7fde8db965f2fefbeb3aa186d065920a086cc2",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/XLM-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:03:53.683432+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 67,
+      "asset": "XPL",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/XPL.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "87ce9bfcd058d76b0de747b3416660e4906dbe1ed1aa66b03852d2ff011de23a",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/XPL-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:04:02.133747+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 396
+      }
+    },
+    {
+      "row": 68,
+      "asset": "XRP",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/XRP.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "55903efe539b1aecbaddefd8ba7cf7f82896fbf5f319837668efe453dac75344",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/XRP-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:04:09.621234+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 69,
+      "asset": "XYZ100",
+      "status": "index perpetual, outside spot mandate"
+    },
+    {
+      "row": 70,
+      "asset": "ZEC",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/ZEC.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "03d33f678e4de0533cfd6e792fc519451b597322748e9e1b89cbd32fddcf02b2",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/ZEC-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:04:17.750446+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    },
+    {
+      "row": 71,
+      "asset": "ZRO",
+      "group": "fifth",
+      "dataset_member": "codex/data/fifth-twenty-20261026/ZRO.json",
+      "dataset_archive": "01_codex_snapshots.zip",
+      "dataset_sha256": "cd8bfc48a805d710a5e9ca3e746d0458eed258c0721f3cf7d8ccd8fb39b1980c",
+      "dossier_member": "codex/outputs/fifth-twenty-20261026/ZRO-dossier.json",
+      "analysis_archive": "02_codex_analisis.zip",
+      "reference_results_member": "codex/outputs/fifth-twenty-20261026/strategy-study.json",
+      "created_at": "2026-10-26T18:04:25.617177+00:00",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      }
+    }
+  ],
+  "all_normalized_datasets": [
+    {
+      "member": "codex/data/AAVE.json",
+      "symbol": "AAVE/USD",
+      "pair": "AAVEUSD",
+      "created_at": "2026-10-26T04:47:22.772650+00:00",
+      "dataset_sha256": "c5fc5a80a43510da4f422789902fecde52f46414352706bdcd4d470d9062a96c",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/ADA.json",
+      "symbol": "ADA/USD",
+      "pair": "ADAUSD",
+      "created_at": "2026-10-26T04:47:27.446664+00:00",
+      "dataset_sha256": "566115b6c68904687641e53d995a0d65787e9fab6ceb9c9cf3c84a695063b856",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/AIXBT.json",
+      "symbol": "AIXBT/USD",
+      "pair": "AIXBTUSD",
+      "created_at": "2026-10-26T04:47:32.072416+00:00",
+      "dataset_sha256": "26b5043aa0ced21ad16b553ccbc6f95cdc229b6776d29fc7fbaeb85ee00753bc",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 612
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/ALGO.json",
+      "symbol": "ALGO/USD",
+      "pair": "ALGOUSD",
+      "created_at": "2026-10-26T04:47:40.276392+00:00",
+      "dataset_sha256": "4df10e63170189fd4ccb49df0d80ad8a30047444b09fd43646c585e7b8074e14",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/APT.json",
+      "symbol": "APT/USD",
+      "pair": "APTUSD",
+      "created_at": "2026-10-26T04:47:48.502467+00:00",
+      "dataset_sha256": "5fb419714e6c403f88189194919141bc242c6ea7ded14830a7985f6e102a54da",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/BTC-benchmark.json",
+      "symbol": "BTC/USD",
+      "pair": "XXBTZUSD",
+      "created_at": "2026-10-26T04:47:54.760367+00:00",
+      "dataset_sha256": "b44a4339c49e39af3089227d42300cfda3100015482e81c5dd5b7af2ee10e2c5",
+      "bars": {
+        "60": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "BTC_context"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/S.json",
+      "symbol": "S/USD",
+      "pair": "SUSD",
+      "created_at": "2026-10-26T18:02:05.204881+00:00",
+      "dataset_sha256": "ca7027bd7f5a9aecba09cee4536f0b48ec1c223031959acb9948432eb539b6ba",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 539
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/SHIB.json",
+      "symbol": "SHIB/USD",
+      "pair": "SHIBUSD",
+      "created_at": "2026-10-26T18:02:10.373092+00:00",
+      "dataset_sha256": "9ebf0f7362f70dc98717e268b977ccf0c8d69b670561bf5bd7a6738a0d4ccfec",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/SOL.json",
+      "symbol": "SOL/USD",
+      "pair": "SOLUSD",
+      "created_at": "2026-10-26T18:02:18.518188+00:00",
+      "dataset_sha256": "f7f4d66bae5e0614ace628e09fdd0c62f742771e36421af3c98eed321d0acf5a",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/STX.json",
+      "symbol": "STX/USD",
+      "pair": "STXUSD",
+      "created_at": "2026-10-26T18:02:26.317796+00:00",
+      "dataset_sha256": "1d83c1333cf1c20850a81dc5a7c39cd68947a45ebb0a7bbbc9eb063d0122b020",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/SUI.json",
+      "symbol": "SUI/USD",
+      "pair": "SUIUSD",
+      "created_at": "2026-10-26T18:02:34.610683+00:00",
+      "dataset_sha256": "4ff8a63bb3db5a611be7b4f79bccbbee2305612fbd3f699950154f5a240801b6",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/TAO.json",
+      "symbol": "TAO/USD",
+      "pair": "TAOUSD",
+      "created_at": "2026-10-26T18:02:42.162598+00:00",
+      "dataset_sha256": "e7d52338dc85c721c84c3413b45d36a6e7ff4ebddd2a89b3f5e0f91764ad09ca",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/TIA.json",
+      "symbol": "TIA/USD",
+      "pair": "TIAUSD",
+      "created_at": "2026-10-26T18:02:50.223710+00:00",
+      "dataset_sha256": "34ce95b49aca6c8bdec3b715e9fc0d2b0cca8be0784fa07188dc298e17f8523d",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/TON.json",
+      "symbol": "TON/USD",
+      "pair": "TONUSD",
+      "created_at": "2026-10-26T18:02:58.048023+00:00",
+      "dataset_sha256": "0fa77bd5fd09d3396662b3b07a376748a88ca2aef1ab2895c52d43125e46381c",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/TRUMP.json",
+      "symbol": "TRUMP/USD",
+      "pair": "TRUMPUSD",
+      "created_at": "2026-10-26T18:03:06.142874+00:00",
+      "dataset_sha256": "9151bf98ff9a0874181091a062689a81a49145508e023258540220ca0e1d2a91",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 646
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/TRX.json",
+      "symbol": "TRX/USD",
+      "pair": "TRXUSD",
+      "created_at": "2026-10-26T18:03:14.275105+00:00",
+      "dataset_sha256": "779ecb70743236ff03dd389803d859ea634a7874eafdb4cd59219a8312d3be0b",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/UNI.json",
+      "symbol": "UNI/USD",
+      "pair": "UNIUSD",
+      "created_at": "2026-10-26T18:03:21.943538+00:00",
+      "dataset_sha256": "e76da059ee2ed0274fdec8f42313ae69e521986277520b7f99ee620bbd6bd43f",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/VIRTUAL.json",
+      "symbol": "VIRTUAL/USD",
+      "pair": "VIRTUALUSD",
+      "created_at": "2026-10-26T18:03:30.061060+00:00",
+      "dataset_sha256": "9f1475e8be2ed89298c647996293a3f710bafa7277f210720562b9fe761fc432",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 621
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/WIF.json",
+      "symbol": "WIF/USD",
+      "pair": "WIFUSD",
+      "created_at": "2026-10-26T18:03:37.838825+00:00",
+      "dataset_sha256": "351203d3efa9d1704c2052a09576c1cabdfa1cb17a79c8d2bf60fbec0e480fa2",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/WLD.json",
+      "symbol": "WLD/USD",
+      "pair": "WLDUSD",
+      "created_at": "2026-10-26T18:03:45.817488+00:00",
+      "dataset_sha256": "2a3109a33897c875a1e914c6da9da1d9e357a1586131452b2a0bcff4604bd642",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 600
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/XLM.json",
+      "symbol": "XLM/USD",
+      "pair": "XXLMZUSD",
+      "created_at": "2026-10-26T18:03:53.683432+00:00",
+      "dataset_sha256": "a3d8097b1937939f53996ab51b7fde8db965f2fefbeb3aa186d065920a086cc2",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/XPL.json",
+      "symbol": "XPL/USD",
+      "pair": "XPLUSD",
+      "created_at": "2026-10-26T18:04:02.133747+00:00",
+      "dataset_sha256": "87ce9bfcd058d76b0de747b3416660e4906dbe1ed1aa66b03852d2ff011de23a",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 396
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/XRP.json",
+      "symbol": "XRP/USD",
+      "pair": "XXRPZUSD",
+      "created_at": "2026-10-26T18:04:09.621234+00:00",
+      "dataset_sha256": "55903efe539b1aecbaddefd8ba7cf7f82896fbf5f319837668efe453dac75344",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/ZEC.json",
+      "symbol": "ZEC/USD",
+      "pair": "XZECZUSD",
+      "created_at": "2026-10-26T18:04:17.750446+00:00",
+      "dataset_sha256": "03d33f678e4de0533cfd6e792fc519451b597322748e9e1b89cbd32fddcf02b2",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fifth-twenty-20261026/ZRO.json",
+      "symbol": "ZRO/USD",
+      "pair": "ZROUSD",
+      "created_at": "2026-10-26T18:04:25.617177+00:00",
+      "dataset_sha256": "cd8bfc48a805d710a5e9ca3e746d0458eed258c0721f3cf7d8ccd8fb39b1980c",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/KAITO.json",
+      "symbol": "KAITO/USD",
+      "pair": "KAITOUSD",
+      "created_at": "2026-10-26T17:59:05.048198+00:00",
+      "dataset_sha256": "3927ad028e53470e674a4a432325c6b59aa877a3e6a2640cb9e56aa49eb052b3",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 613
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/LDO.json",
+      "symbol": "LDO/USD",
+      "pair": "LDOUSD",
+      "created_at": "2026-10-26T17:59:10.445653+00:00",
+      "dataset_sha256": "15d3cfcd037999d46a43c68391724786073c3350a73b8bb29610a901e045b1a7",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/LIGHTER.json",
+      "symbol": "LIGHTER/USD",
+      "pair": "LIGHTERUSD",
+      "created_at": "2026-10-26T17:59:18.395522+00:00",
+      "dataset_sha256": "1d24746ea115ad312cfacb76be2325371ee41a573f66ee1a799bf3810d07cec9",
+      "bars": {
+        "60": 720,
+        "240": 420,
+        "1440": 70
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/LINK.json",
+      "symbol": "LINK/USD",
+      "pair": "LINKUSD",
+      "created_at": "2026-10-26T17:59:26.374951+00:00",
+      "dataset_sha256": "ed8f687fbe4b655219b2ad2f976669c4c71d0810af2db927977febe455d5be62",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/LIT.json",
+      "symbol": "LIT/USD",
+      "pair": "LITUSD",
+      "created_at": "2026-10-26T17:59:34.402735+00:00",
+      "dataset_sha256": "2c1370619cd01f4452cce626d11d27a0ad65af805a2061d03f6685d5a2aacbec",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/LTC.json",
+      "symbol": "LTC/USD",
+      "pair": "XLTCZUSD",
+      "created_at": "2026-10-26T17:59:42.402121+00:00",
+      "dataset_sha256": "e216fd514320e69a50b7b6849ce006d67b6bac412a5f233405e7b94c26250daa",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/MON.json",
+      "symbol": "MON/USD",
+      "pair": "MONUSD",
+      "created_at": "2026-10-26T17:59:50.426876+00:00",
+      "dataset_sha256": "05154027800e0f2dd21074ab510f24d33a5c190c98873ac4970e0e870229499b",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 336
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/MOODENG.json",
+      "symbol": "MOODENG/USD",
+      "pair": "MOODENGUSD",
+      "created_at": "2026-10-26T17:59:58.348279+00:00",
+      "dataset_sha256": "1a924fd01273759cb1b4a5d4d274fdc9baa3608b21750ee2568d9c945b972d22",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 677
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/NEAR.json",
+      "symbol": "NEAR/USD",
+      "pair": "NEARUSD",
+      "created_at": "2026-10-26T18:00:07.967504+00:00",
+      "dataset_sha256": "5853cef0476553124a043fd065ba5b773beb4394c2b1c5dc1ebe56f51ec3f92b",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/ONDO.json",
+      "symbol": "ONDO/USD",
+      "pair": "ONDOUSD",
+      "created_at": "2026-10-26T18:00:40.615528+00:00",
+      "dataset_sha256": "26573f7235bd2116ad55032c0fd4940d8befe5ffc46e5232b1bd312dde0920c7",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/OP.json",
+      "symbol": "OP/USD",
+      "pair": "OPUSD",
+      "created_at": "2026-10-26T18:00:48.474832+00:00",
+      "dataset_sha256": "fa6bc926c9af5a6ce0cc43994989325f238ccf58f62c717345b61adb2b4fd2ab",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/PENDLE.json",
+      "symbol": "PENDLE/USD",
+      "pair": "PENDLEUSD",
+      "created_at": "2026-10-26T18:00:56.845034+00:00",
+      "dataset_sha256": "698b0b05684f555706e91c44b33443deae7aa9605781991311f28cf6674dfac8",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/PENGU.json",
+      "symbol": "PENGU/USD",
+      "pair": "PENGUUSD",
+      "created_at": "2026-10-26T18:01:04.575750+00:00",
+      "dataset_sha256": "8ed045092511eeddc261035a737a3782dba628f5d9a919a3443e657c8f254228",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 636
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/PEPE.json",
+      "symbol": "PEPE/USD",
+      "pair": "PEPEUSD",
+      "created_at": "2026-10-26T18:01:12.512359+00:00",
+      "dataset_sha256": "fc96a83a4c1df9d5f2e1955e2eb4b182cfb5997cac8060aff5cda0120edf4d06",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/PNUT.json",
+      "symbol": "PNUT/USD",
+      "pair": "PNUTUSD",
+      "created_at": "2026-10-26T18:01:20.547386+00:00",
+      "dataset_sha256": "8f07bd804c2ec593301a3bdac7ac510dc67405f78dd178c6417e50b2a885ef64",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 677
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/POL.json",
+      "symbol": "POL/USD",
+      "pair": "POLUSD",
+      "created_at": "2026-10-26T18:01:29.540301+00:00",
+      "dataset_sha256": "9df6a5b89564b82c99af4bd3983d7d18bd7ba4f07706be08533c91fafd96f963",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/POPCAT.json",
+      "symbol": "POPCAT/USD",
+      "pair": "POPCATUSD",
+      "created_at": "2026-10-26T18:01:36.518719+00:00",
+      "dataset_sha256": "160612fdafff3650f16f1b36cf2412667a9c01b99d2748193eee61b0d7a7b473",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/PUMP.json",
+      "symbol": "PUMP/USD",
+      "pair": "PUMPUSD",
+      "created_at": "2026-10-26T18:01:44.337796+00:00",
+      "dataset_sha256": "d5d9a687ad9d4aab486ddcbad62feceda5c71640ae41c7efb93af4b719add8d7",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 469
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/fourth-twenty-20261026/RENDER.json",
+      "symbol": "RENDER/USD",
+      "pair": "RENDERUSD",
+      "created_at": "2026-10-26T18:01:52.348738+00:00",
+      "dataset_sha256": "6d94e0b0aceff600ef72ed9f2805616bb2715e975e959a64f49ea4d805e7f921",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/BNB.json",
+      "symbol": "BNB/USD",
+      "pair": "BNBUSD",
+      "created_at": "2026-10-26T12:28:50.682363+00:00",
+      "dataset_sha256": "57ff56ad4a510d8248bdf14caf20c8de3a8f64adf123b3d3cc3daae6f5db5e59",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 552
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/BONK.json",
+      "symbol": "BONK/USD",
+      "pair": "BONKUSD",
+      "created_at": "2026-10-26T12:28:56.008047+00:00",
+      "dataset_sha256": "d388dc30422bd374916acd52bc2cb04e05181e3ab84bc90658c2f65e91408677",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/BTC.json",
+      "symbol": "BTC/USD",
+      "pair": "XXBTZUSD",
+      "created_at": "2026-10-26T12:29:03.875209+00:00",
+      "dataset_sha256": "510cb8083ac9554f50a983738cebe1b08c18d3590127ff88b0013cc359f8e074",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/CRV.json",
+      "symbol": "CRV/USD",
+      "pair": "CRVUSD",
+      "created_at": "2026-10-26T12:29:12.048281+00:00",
+      "dataset_sha256": "d3e828b460610dc3b1948c95e4458d43af2e2ee64049eeb89cbb4910046a8e66",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/DOGE.json",
+      "symbol": "DOGE/USD",
+      "pair": "XDGUSD",
+      "created_at": "2026-10-26T12:29:19.661723+00:00",
+      "dataset_sha256": "8f5272452a6807818ea6edd89a293cd49a27ac70e2cf867868d5d27b7a0cd3f8",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/DOT.json",
+      "symbol": "DOT/USD",
+      "pair": "DOTUSD",
+      "created_at": "2026-10-26T12:29:27.619092+00:00",
+      "dataset_sha256": "a21a260533cb7eb820a2284370a437bfa71b72d04b3417e3a3629c735d0d38e8",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/ENA.json",
+      "symbol": "ENA/USD",
+      "pair": "ENAUSD",
+      "created_at": "2026-10-26T12:29:35.492634+00:00",
+      "dataset_sha256": "70e60b9240e4d5fd7cbc8a80dbef580374b382ad6b8efddd872b6581cb1257ad",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/ETC.json",
+      "symbol": "ETC/USD",
+      "pair": "XETCZUSD",
+      "created_at": "2026-10-26T12:29:43.532635+00:00",
+      "dataset_sha256": "c6aae9a6b6b75d3aa121a7fed3c5343d90512149f4ed50df19410b458c9feb7c",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/ETH.json",
+      "symbol": "ETH/USD",
+      "pair": "XETHZUSD",
+      "created_at": "2026-10-26T12:29:51.605333+00:00",
+      "dataset_sha256": "a5f860c1e02b03e1df920ee72c6bdfd7e5d680eeb0807638fcf0a1f18071284d",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/ETHFI.json",
+      "symbol": "ETHFI/USD",
+      "pair": "ETHFIUSD",
+      "created_at": "2026-10-26T12:29:59.341608+00:00",
+      "dataset_sha256": "d1dd2a2017b95d11207fefdba0e0528dbca255e5705f377fe944c307f22cdf1a",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/FARTCOIN.json",
+      "symbol": "FARTCOIN/USD",
+      "pair": "FARTCOINUSD",
+      "created_at": "2026-10-26T12:30:07.750120+00:00",
+      "dataset_sha256": "9c1e98463ba7d484a2158b4a8580512f6201a7ec90b02f420e8b8343f6d07248",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 641
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/FIL.json",
+      "symbol": "FIL/USD",
+      "pair": "FILUSD",
+      "created_at": "2026-10-26T12:30:16.484666+00:00",
+      "dataset_sha256": "336fb053309f4dad45227fb10fdcd61938ea611a5d9009dfdcccb7597e6b659c",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/FLOKI.json",
+      "symbol": "FLOKI/USD",
+      "pair": "FLOKIUSD",
+      "created_at": "2026-10-26T12:30:23.922020+00:00",
+      "dataset_sha256": "e0c9c95a0d7d4daae0e22bc7c4abec208f7aa4889b11f19e98961667dcbe3cce",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/GRASS.json",
+      "symbol": "GRASS/USD",
+      "pair": "GRASSUSD",
+      "created_at": "2026-10-26T12:30:31.892349+00:00",
+      "dataset_sha256": "0aeee4d506ca5c23fc77a91b1b427c5f86e6756f2819f776a7f4aaa1429b90cc",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 637
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/HBAR.json",
+      "symbol": "HBAR/USD",
+      "pair": "HBARUSD",
+      "created_at": "2026-10-26T12:30:40.056911+00:00",
+      "dataset_sha256": "650e5637019d563f987153b81a3002c5c9b730a363189c2e0b0c10e77bba3878",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 473
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/HYPE.json",
+      "symbol": "HYPE/USD",
+      "pair": "HYPEUSD",
+      "created_at": "2026-10-26T12:30:47.628444+00:00",
+      "dataset_sha256": "f6d043869a0e1ffaa3939b014f9360331ee910cb8b5150b7cd97ab2343d93ddf",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 271
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/ICP.json",
+      "symbol": "ICP/USD",
+      "pair": "ICPUSD",
+      "created_at": "2026-10-26T12:30:55.554638+00:00",
+      "dataset_sha256": "b0c68dbb29c6d5f47c1e851721bfb7659334176b341ad3ba528b3e8ab56bf328",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/INJ.json",
+      "symbol": "INJ/USD",
+      "pair": "INJUSD",
+      "created_at": "2026-10-26T12:31:03.930280+00:00",
+      "dataset_sha256": "b7beec14f4a42e468a7fac63ad7345c090bc3d9bdeebed247363acfaefccdb5a",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/JTO.json",
+      "symbol": "JTO/USD",
+      "pair": "JTOUSD",
+      "created_at": "2026-10-26T12:31:11.649738+00:00",
+      "dataset_sha256": "300bb25cbaff4075416e83eeac7239e8edee63ba598b332cebd6cfd623dbee34",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/next-twenty-20261026/JUP.json",
+      "symbol": "JUP/USD",
+      "pair": "JUPUSD",
+      "created_at": "2026-10-26T12:31:19.417664+00:00",
+      "dataset_sha256": "a80d5bcf74238778b04b64a377d52138693a6326e3b9f200910c590872188ea9",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/pilot-v2-20261026/AAVE.json",
+      "symbol": "AAVE/USD",
+      "pair": "AAVEUSD",
+      "created_at": "2026-10-26T11:36:25.562275+00:00",
+      "dataset_sha256": "5e061f83e6ae6d3c6549d010beb2902a8f81f76f938ba93f469bd11d3208178b",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "P1_revision_snapshot"
+    },
+    {
+      "member": "codex/data/pilot-v2-20261026/ADA.json",
+      "symbol": "ADA/USD",
+      "pair": "ADAUSD",
+      "created_at": "2026-10-26T11:36:31.071944+00:00",
+      "dataset_sha256": "ad52cac3304a88334c51ba6c8c5725422a9d5c29885dfcec98795edf2ff5b0a2",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "P1_revision_snapshot"
+    },
+    {
+      "member": "codex/data/pilot-v2-20261026/AIXBT.json",
+      "symbol": "AIXBT/USD",
+      "pair": "AIXBTUSD",
+      "created_at": "2026-10-26T11:36:36.568685+00:00",
+      "dataset_sha256": "cab2f9c7c8599378cf9bdc545f6e81a83b069553e72a88f37a2017f10f088372",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 612
+      },
+      "synthetic": false,
+      "role": "P1_revision_snapshot"
+    },
+    {
+      "member": "codex/data/pilot-v2-20261026/ALGO.json",
+      "symbol": "ALGO/USD",
+      "pair": "ALGOUSD",
+      "created_at": "2026-10-26T11:36:42.064272+00:00",
+      "dataset_sha256": "fa4163f2e98d98cbd56889e0e60d6e3b349d8fcd3c35385e9613d498e5ccf697",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "P1_revision_snapshot"
+    },
+    {
+      "member": "codex/data/pilot-v2-20261026/APT.json",
+      "symbol": "APT/USD",
+      "pair": "APTUSD",
+      "created_at": "2026-10-26T11:36:47.571858+00:00",
+      "dataset_sha256": "9e3b1820427f54657bdbf7c46f2d00c8521f88840cd76ca1a5f055cbacf0be2d",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "P1_revision_snapshot"
+    },
+    {
+      "member": "codex/data/second-five-20261026/ARB.json",
+      "symbol": "ARB/USD",
+      "pair": "ARBUSD",
+      "created_at": "2026-10-26T11:50:46.073346+00:00",
+      "dataset_sha256": "9b4aa76f94a8c4ad6f06963da5d7f221d8eaa0510534361b412fa67f194a4316",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/second-five-20261026/ASTER.json",
+      "symbol": "ASTER/USD",
+      "pair": "ASTERUSD",
+      "created_at": "2026-10-26T11:50:51.333145+00:00",
+      "dataset_sha256": "1287dde17e0d585fa27664e3c108cab9ae92fa82616dcdd7c95bf6d3e18dc97b",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 371
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/second-five-20261026/ATOM.json",
+      "symbol": "ATOM/USD",
+      "pair": "ATOMUSD",
+      "created_at": "2026-10-26T11:50:59.194606+00:00",
+      "dataset_sha256": "eb06c923006e3cc20448f581cd39b0133f5389bb9e12b300035e8e3017ada7cd",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/second-five-20261026/AVAX.json",
+      "symbol": "AVAX/USD",
+      "pair": "AVAXUSD",
+      "created_at": "2026-10-26T11:51:07.256286+00:00",
+      "dataset_sha256": "4d2a99ddeb7dc37a6349d751e9e26069563c1316f63a0c23401909f91019d2ce",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/second-five-20261026/BCH.json",
+      "symbol": "BCH/USD",
+      "pair": "BCHUSD",
+      "created_at": "2026-10-26T11:51:15.098372+00:00",
+      "dataset_sha256": "d812b5b2aea76c031b6f7207cc173ff2dc4c6954a32e265279d54c3991633f70",
+      "bars": {
+        "60": 720,
+        "240": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "primary_universe"
+    },
+    {
+      "member": "codex/data/second-five-20261026/BTC-context.json",
+      "symbol": "BTC/USD",
+      "pair": "XXBTZUSD",
+      "created_at": "2026-10-26T11:51:21.719260+00:00",
+      "dataset_sha256": "9ff784bb7ef5e19597ed529759f076e625b036c42fd033290d71ea74bf6b0368",
+      "bars": {
+        "60": 720,
+        "1440": 720
+      },
+      "synthetic": false,
+      "role": "BTC_context"
+    }
+  ],
+  "claude_public_source": {
+    "repo": "carolinehernandez1126-ui/Forebank",
+    "main_commit": "c72ea661241eabb103b038102ea16523a0e98d5f",
+    "public_repository": true,
+    "retrieved_at_utc": "2026-10-27T00:16:33.354688+00:00",
+    "files": [
+      {
+        "path": "Claude/PROTOCOLO_REGISTRO.md",
+        "git_blob": "3e74e53ebe0af0a93bc9ceace4ee0cc8cc97d48b",
+        "sha256": "04de3c8b03026ee6d779be25341536fa71b84fea910472af26db8d65e7f23419",
+        "bytes": 2022,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/PROTOCOLO_REGISTRO.md"
+      },
+      {
+        "path": "Claude/README.md",
+        "git_blob": "10e8f02bd451fc9c509c9258dbcc794c52281690",
+        "sha256": "803742df0f9bd9228e157a78aec53b47586f3a02a3f99c90a0d5185b89a179fb",
+        "bytes": 4175,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/README.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-25-universo-top5/ESTUDIO.md",
+        "git_blob": "350c42a56231265ebec0185240edb1a04a9c00c8",
+        "sha256": "7b0639aaa0054b95216ac35aaeae4d6da675df45ff30a940684343b8eb15d4a1",
+        "bytes": 20233,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-25-universo-top5/ESTUDIO.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-25-universo-top5/HIPOTESIS_REGISTRADAS.md",
+        "git_blob": "2724c903f68a262a1ec5e5c0e20a6150ec52a1b2",
+        "sha256": "78a041d2098907e38abbfd4bbe82c781add37219af73679c1a829cfc82e65b03",
+        "bytes": 2219,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-25-universo-top5/HIPOTESIS_REGISTRADAS.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-25-universo-top5/bt.py",
+        "git_blob": "e87e70b24b6ec2c29044ce572a29cbfb1efcad1a",
+        "sha256": "0a4d0f06c3830d572267d17c63e3b1ab00b4c33dbc5be96f85a8ba2b6c4b5738",
+        "bytes": 6209,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-25-universo-top5/bt.py"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-12-31/ESTUDIO.md",
+        "git_blob": "b39d7fe1f3e924ef02cdf3bc197ee1fce77bab71",
+        "sha256": "57b74f61bdba20fa43af37950d3fb0a45b6de96d14b6dd81da22b7b6870aba0b",
+        "bytes": 13765,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-12-31/ESTUDIO.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-12-31/elegibilidad_kraken.json",
+        "git_blob": "4194c3ad9d8335eed25d4f91decf10946f1bb2df",
+        "sha256": "1a1585271093e630045aabf8419ffeca2f29494356c826a69f48bb92c03aa1c3",
+        "bytes": 3454,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-12-31/elegibilidad_kraken.json"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-12-31/engine.py",
+        "git_blob": "17dd29d1721bf43bd36253c7365c31f4edb1dd89",
+        "sha256": "efcaf0f0783ae88d76f838ef5eca25472b8b7d025ff0f38826932e5751becc57",
+        "bytes": 13206,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-12-31/engine.py"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-12-31/signals.py",
+        "git_blob": "5e57efd37cbe52753fcee233b35fb685cf6281b7",
+        "sha256": "404e85fc0a4da52a951ae326cbc85170d3758ae8c5f1441959da528ebb74c017",
+        "bytes": 3915,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-12-31/signals.py"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-32-51/ESTUDIO.md",
+        "git_blob": "c1bea9f5f6f8f9e3c74fecc9c53d115e508af0ae",
+        "sha256": "ac712a16daed920bff23c9888a9568fddabd5ce5ff3bee9ca2034917ac374eef",
+        "bytes": 17850,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-32-51/ESTUDIO.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-32-51/tech.py",
+        "git_blob": "63fc6fdfffe74cc90abc60e567c4ee680c7080c3",
+        "sha256": "fd29d3a6895ec2a9fa207e81945d9879bc7ef943d6045ff6e033f78ec69360fe",
+        "bytes": 5170,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-32-51/tech.py"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-filas-52-71/ESTUDIO.md",
+        "git_blob": "1d987a4d48efc6b3da43c33142277ece34d8a29e",
+        "sha256": "a5ff2bfb7deacfec996982a37235b39a8aa63cc26072d2504ccab3d41e5cca0d",
+        "bytes": 14462,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-filas-52-71/ESTUDIO.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-sistema-c1t/ESTUDIO.md",
+        "git_blob": "2aa828bc3c2bfb9730c60af573f69e2d1d0866ae",
+        "sha256": "15de4f496ef7b54e18b8e13371a380d0d36767fc69441d407974d98573c8d066",
+        "bytes": 14546,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-sistema-c1t/ESTUDIO.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-sistema-c1t/HIPOTESIS_REGISTRADAS.md",
+        "git_blob": "9ee53fb2bb9a2c008a5314c43b7e2e571ca025f7",
+        "sha256": "5e5e68a602522e0104ad14e2778916c9286c5775863f13f2d55deb1351751eb2",
+        "bytes": 4040,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-sistema-c1t/HIPOTESIS_REGISTRADAS.md"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-sistema-c1t/engine.py",
+        "git_blob": "17dd29d1721bf43bd36253c7365c31f4edb1dd89",
+        "sha256": "efcaf0f0783ae88d76f838ef5eca25472b8b7d025ff0f38826932e5751becc57",
+        "bytes": 13206,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-sistema-c1t/engine.py"
+      },
+      {
+        "path": "Claude/estudios/2026-10-26-sistema-c1t/signals.py",
+        "git_blob": "c7bee7ad2aaba5107fb9faa711a6b91eae3a7f62",
+        "sha256": "84d2d6a8b004f82dedc95342e10250abd50b66464801a0c05d21ee2a5f623059",
+        "bytes": 3574,
+        "source_url": "https://github.com/carolinehernandez1126-ui/Forebank/blob/c72ea661241eabb103b038102ea16523a0e98d5f/Claude/estudios/2026-10-26-sistema-c1t/signals.py"
+      }
+    ],
+    "source_scope": "Only already-published GitHub blobs; no local Claude private directory read."
+  },
+  "claude_private_results_included": true,
+  "claude_authorized_research": {
+    "producer": "Claude",
+    "export_at_utc": "2026-10-27T01:06:50.248233+00:00",
+    "authorization": "Human explicitly authorized sanitizing and publishing only research under private/claude in this session.",
+    "file_origin": "Separate Claude checkout; read-only export, originals not modified.",
+    "normalized_datasets": [
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/aave.json",
+        "symbol": "AAVE/USD",
+        "created_at": "2026-10-26T04:45:49.818103+00:00",
+        "dataset_sha256": "447e7bdd0a8876e1de95bd736a01a2c463b75f348b6cbc6c913dc0ac9e061fa8",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "f677795e84161d264211fc3791edb37b5400b1adf4636596822644b47d9ada3c"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/ada.json",
+        "symbol": "ADA/USD",
+        "created_at": "2026-10-26T04:46:02.085184+00:00",
+        "dataset_sha256": "11cae05acd873ac75ebbcb630a6b79084a001dce4cc13663129b3911da95a5f7",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "c96189c45b975d4c28b574662a7a258c018bd6a0bafc011d17e50c6ed11512bf"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/aixbt.json",
+        "symbol": "AIXBT/USD",
+        "created_at": "2026-10-26T04:46:13.660992+00:00",
+        "dataset_sha256": "a7baeab7bdd4403f1a85eed05f1dd81c342d96e8983e473ab765ed9c710cb91f",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 612
+        },
+        "source_sha256": "27d4af9db977b2d28fce9395145edb7c7610f680f9970540cc942c1fda3a9a35"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/algo.json",
+        "symbol": "ALGO/USD",
+        "created_at": "2026-10-26T04:46:27.962641+00:00",
+        "dataset_sha256": "ada893a0308a5b9e742fa336b40a09f5f4c1565a0be79f06d36abcd9301e104f",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "6ea3d8fdc4d9ad52d38bc88a552b3120a20d9bf2626ab2cc00dae2f96cd2b125"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/apt.json",
+        "symbol": "APT/USD",
+        "created_at": "2026-10-26T04:46:41.398376+00:00",
+        "dataset_sha256": "be6bab7347c318e664ef8faa4b4f91e53bfe766a81800626d16d35ec19102ea6",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "7ea27d1985b444471193122bdf533ba4bb68acd819755fa706bea82082783153"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/arb.json",
+        "symbol": "ARB/USD",
+        "created_at": "2026-10-26T12:16:39.951651+00:00",
+        "dataset_sha256": "de48f510b8e486cce64f9d1141b2d4383ec7797f97fcda19cbbe843e66f6e765",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "40b5088291c4bf584c1b0d90459067a8b2544aec79628cc732e16c7b39469ac6"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/aster.json",
+        "symbol": "ASTER/USD",
+        "created_at": "2026-10-26T12:16:48.447051+00:00",
+        "dataset_sha256": "aced826196c247b7a8096371fc30df5ed6989eba6f4dc7965b718bf0652b5f60",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 371
+        },
+        "source_sha256": "a67fbc134a90a73127a07fbc5035cbbfdc321fa34bc1ba9d3877a48d25c98784"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/atom.json",
+        "symbol": "ATOM/USD",
+        "created_at": "2026-10-26T12:16:56.869102+00:00",
+        "dataset_sha256": "eb9b32b7f808d840e74bd0139d91d6fc6a57bca57244c6f9907ae09c45f1f4ba",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "7936a8a729f0add09626bb7434174b9d8efedf94772d8875090f3d7d9e0add1c"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/avax.json",
+        "symbol": "AVAX/USD",
+        "created_at": "2026-10-26T12:17:05.545674+00:00",
+        "dataset_sha256": "e4c3b4a895ae32b3bf9d1b2443816f07a7006d79920b4d486a66cb8c470a73a0",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "8a2d8f44fe4fe2ac667fbcbbb9004f2182fc4ee765071584de8a7a50a27ab48e"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/bch.json",
+        "symbol": "BCH/USD",
+        "created_at": "2026-10-26T12:17:13.944844+00:00",
+        "dataset_sha256": "a68d956f983bb465230e233d767318bcb58cbacb79d4b96b7b092d773681cbdb",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "2a050c75ff58d13c0a2bbfc9afbd63c3e3c9b55dad9f122cb0bcf105b577ac35"
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/data/btc.json",
+        "symbol": "BTC/USD",
+        "created_at": "2026-10-26T04:47:35.284301+00:00",
+        "dataset_sha256": "6c7ff2d805fb79378b20b7461f0ecb889cc8c28a493e4d9c83c319683d6771d2",
+        "bars": {
+          "60": 720,
+          "240": 720,
+          "1440": 720
+        },
+        "source_sha256": "b31d552c303bf9a8ae54b431f98fdeeff39fa5b87f689d6fe31f2a932b35a2ab"
+      }
+    ],
+    "long_histories": [
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/aave.json",
+        "symbol": "AAVEUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:40.112646+00:00",
+        "bars": 2202,
+        "first_timestamp": "2020-10-15T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/ada.json",
+        "symbol": "ADAUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:41.575720+00:00",
+        "bars": 3114,
+        "first_timestamp": "2018-04-17T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/aixbt.json",
+        "symbol": "AIXBTUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:41.990253+00:00",
+        "bars": 654,
+        "first_timestamp": "2025-01-10T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/algo.json",
+        "symbol": "ALGOUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:42.941840+00:00",
+        "bars": 2683,
+        "first_timestamp": "2019-06-22T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/apt.json",
+        "symbol": "APTUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:43.802417+00:00",
+        "bars": 1468,
+        "first_timestamp": "2022-10-19T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/arb.json",
+        "symbol": "ARBUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:44.444933+00:00",
+        "bars": 1313,
+        "first_timestamp": "2023-03-23T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/aster.json",
+        "symbol": "ASTERUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:44.764819+00:00",
+        "bars": 385,
+        "first_timestamp": "2025-10-06T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/atom.json",
+        "symbol": "ATOMUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:45.911697+00:00",
+        "bars": 2737,
+        "first_timestamp": "2019-04-29T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/avax.json",
+        "symbol": "AVAXUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:47.548620+00:00",
+        "bars": 2225,
+        "first_timestamp": "2020-09-22T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/bch.json",
+        "symbol": "BCHUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:48.943348+00:00",
+        "bars": 2524,
+        "first_timestamp": "2019-11-28T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/bnb.json",
+        "symbol": "BNBUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 3276,
+        "first_timestamp": "2017-11-06T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/bonk.json",
+        "symbol": "BONKUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 1046,
+        "first_timestamp": "2023-12-15T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/btc.json",
+        "symbol": "BTCUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": "2026-10-26T12:11:37.005340+00:00",
+        "bars": 3357,
+        "first_timestamp": "2017-08-17T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/doge.json",
+        "symbol": "DOGEUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 2670,
+        "first_timestamp": "2019-07-05T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/dot.json",
+        "symbol": "DOTUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 2260,
+        "first_timestamp": "2020-08-18T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/ena.json",
+        "symbol": "ENAUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 937,
+        "first_timestamp": "2024-04-02T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/etc.json",
+        "symbol": "ETCUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 3058,
+        "first_timestamp": "2018-06-12T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/eth.json",
+        "symbol": "ETHUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 3357,
+        "first_timestamp": "2017-08-17T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/ethfi.json",
+        "symbol": "ETHFIUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 952,
+        "first_timestamp": "2024-03-18T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/fartcoin.json",
+        "symbol": "FARTCOINUSD",
+        "source": "kraken OHLC 1d",
+        "fetched_at": null,
+        "bars": 641,
+        "first_timestamp": "2025-01-23T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/fil.json",
+        "symbol": "FILUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 2202,
+        "first_timestamp": "2020-10-15T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/floki.json",
+        "symbol": "FLOKIUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 1270,
+        "first_timestamp": "2023-05-05T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/hbar.json",
+        "symbol": "HBARUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 2584,
+        "first_timestamp": "2019-09-29T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/hype.json",
+        "symbol": "HYPEUSD",
+        "source": "kraken OHLC 1d",
+        "fetched_at": null,
+        "bars": 271,
+        "first_timestamp": "2026-01-28T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/icp.json",
+        "symbol": "ICPUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 1994,
+        "first_timestamp": "2021-05-11T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/inj.json",
+        "symbol": "INJUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 2196,
+        "first_timestamp": "2020-10-21T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/jto.json",
+        "symbol": "JTOUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 1054,
+        "first_timestamp": "2023-12-07T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/long/jup.json",
+        "symbol": "JUPUSDT",
+        "source": "binance spot klines 1d",
+        "fetched_at": null,
+        "bars": 999,
+        "first_timestamp": "2024-01-31T00:00:00Z",
+        "last_timestamp": "2026-10-25T00:00:00Z",
+        "limitation": "Binance spot USDT daily history; not Kraken USD. Missing fetched_at remains unknown."
+      }
+    ],
+    "saved_outputs": [
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/eligibility_12_31.json",
+        "keys": [
+          "BNB",
+          "BONK",
+          "BTC",
+          "CVR",
+          "DOGE",
+          "DOT",
+          "ENA",
+          "ETC",
+          "ETH",
+          "ETHFI",
+          "FARTCOIN",
+          "FIL",
+          "FLOKI",
+          "GRASS",
+          "HBAR",
+          "HYPE",
+          "ICP",
+          "INJ",
+          "JTO",
+          "JUP"
+        ],
+        "as_of": null,
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/aave/dossier.json",
+        "keys": [
+          "schema_version",
+          "dataset_sha256",
+          "as_of",
+          "symbol",
+          "synthetic",
+          "status",
+          "timeframes",
+          "fundamentals",
+          "provenance",
+          "warnings"
+        ],
+        "as_of": "2026-10-26T04:45:54.514940+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/ada/dossier.json",
+        "keys": [
+          "schema_version",
+          "dataset_sha256",
+          "as_of",
+          "symbol",
+          "synthetic",
+          "status",
+          "timeframes",
+          "fundamentals",
+          "provenance",
+          "warnings"
+        ],
+        "as_of": "2026-10-26T04:46:04.936704+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/aixbt/dossier.json",
+        "keys": [
+          "schema_version",
+          "dataset_sha256",
+          "as_of",
+          "symbol",
+          "synthetic",
+          "status",
+          "timeframes",
+          "fundamentals",
+          "provenance",
+          "warnings"
+        ],
+        "as_of": "2026-10-26T04:46:17.780630+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/algo/dossier.json",
+        "keys": [
+          "schema_version",
+          "dataset_sha256",
+          "as_of",
+          "symbol",
+          "synthetic",
+          "status",
+          "timeframes",
+          "fundamentals",
+          "provenance",
+          "warnings"
+        ],
+        "as_of": "2026-10-26T04:46:31.626567+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/apt/dossier.json",
+        "keys": [
+          "schema_version",
+          "dataset_sha256",
+          "as_of",
+          "symbol",
+          "synthetic",
+          "status",
+          "timeframes",
+          "fundamentals",
+          "provenance",
+          "warnings"
+        ],
+        "as_of": "2026-10-26T04:46:45.072897+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/out/bt_trades.json",
+        "keys": [
+          "H1",
+          "H1_noregime",
+          "H2"
+        ],
+        "as_of": null,
+        "simulation": true
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/pairs_32_51.json",
+        "keys": [
+          "KAITO",
+          "LDO",
+          "LIGHTER",
+          "LINK",
+          "LIT",
+          "LTC",
+          "MON",
+          "MOODENG",
+          "NEAR",
+          "ONDO",
+          "OP",
+          "PENDLE",
+          "PENGU",
+          "PEPE",
+          "PNUT",
+          "POL",
+          "POPCAT",
+          "PUMP",
+          "RENDER"
+        ],
+        "as_of": null,
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/pairs_52_70.json",
+        "keys": [
+          "S",
+          "SHIB",
+          "SOL",
+          "STX",
+          "SUI",
+          "TAO",
+          "TIA",
+          "TON",
+          "TRUMP",
+          "TRX",
+          "UNI",
+          "VIRTUAL",
+          "WIF",
+          "WLD",
+          "XLM",
+          "XPL",
+          "XRP",
+          "ZEC",
+          "ZRO"
+        ],
+        "as_of": null,
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/tech_32_51.json",
+        "keys": [
+          "as_of",
+          "data"
+        ],
+        "as_of": "2026-10-26T12:40:12.592663+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/tech_52_71.json",
+        "keys": [
+          "as_of",
+          "data"
+        ],
+        "as_of": "2026-10-26T12:54:48.821656+00:00",
+        "simulation": false
+      },
+      {
+        "archive": "06_claude_resultados_saneados.zip",
+        "member": "claude/private/claude/tech_ctx.json",
+        "keys": [
+          "as_of",
+          "data"
+        ],
+        "as_of": "2026-10-26T12:40:21.394961+00:00",
+        "simulation": false
+      }
+    ],
+    "public_source_cache_records": 79,
+    "limitations": [
+      "Available local research files only, not an assertion all 70 original raw runs exist.",
+      "Long histories from Binance spot USDT, not Kraken USD; preserve venue/quote differences.",
+      "Technical snapshots may contain derivatives positioning as context; no derivatives orders.",
+      "Original non-finite JSON values, if any, are preserved and must be treated as missing, not signals.",
+      "Original scripts preserved for audit; some contact public APIs or use checkout-relative paths.",
+      "Source cache read from immutable checkpointed SQLite file only; WAL not read, so uncheckpointed cache rows may be absent.",
+      "No Claude strategy replay claimed; no new review or investment approval attributed to Claude."
+    ]
+  }
+}
