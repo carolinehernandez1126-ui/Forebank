@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "auditor": "Gemini (Interventor y Calificador Financiero Independiente)",
+    "date_bogota": "2026-10-26",
+    "timestamp_utc": "2026-10-27T03:00:00Z",
+    "repository": "https://github.com/carolinehernandez1126-ui/Forebank",
+    "mandate": {
+      "equity_usd": 50000.0,
+      "hard_mdl_fraction": 0.03,
+      "hard_mdl_usd": 1500.0,
+      "hard_mdd_fraction": 0.06,
+      "hard_mdd_usd": 3000.0,
+      "operational_mdl_fraction": 0.02,
+      "operational_mdl_net_after_buffer_usd": 800.0,
+      "operational_mdd_fraction": 0.04,
+      "operational_mdd_usd": 2000.0,
+      "max_per_trade_risk_fraction": 0.0025,
+      "max_per_trade_risk_usd": 125.0,
+      "max_open_risk_fraction": 0.005,
+      "max_open_risk_usd": 250.0,
+      "fee_bps_per_side": 40.0,
+      "slippage_bps_per_side": 15.0,
+      "total_cost_per_side_fraction": 0.0055,
+      "max_depth_participation_fraction": 0.01
+    }
+  },
+  "final_grades": {
+    "Claude": {
+      "weighted_score": 88.05,
+      "verdict": "GANADOR EN VIABILIDAD FINANCIERA, GEOMETRIA DE COSTOS Y SELECCION DE ACTIVOS",
+      "breakdown": {
+        "mdl_mdd_governance": 90,
+        "trade_cost_geometry_and_expectancy": 91,
+        "empirical_backtest_rigor": 86,
+        "derivatives_and_fundamental_depth": 94,
+        "kraken_liquidity_compliance": 82,
+        "reproducibility_and_data_hygiene": 84
+      }
+    },
+    "Codex": {
+      "weighted_score": 81.95,
+      "verdict": "GANADOR EN GOBERNANZA DE RIESGO (MDL/MDD), REPRODUCIBILIDAD Y VEDA MACRO PRE-FOMC",
+      "breakdown": {
+        "mdl_mdd_governance": 97,
+        "trade_cost_geometry_and_expectancy": 58,
+        "empirical_backtest_rigor": 76,
+        "derivatives_and_fundamental_depth": 80,
+        "kraken_liquidity_compliance": 95,
+        "reproducibility_and_data_hygiene": 98
+      }
+    }
+  },
+  "codex_rule_q_pooled_diagnostic_61_assets": {
+    "window_hours": 520,
+    "period": "2026-10-04 to 2026-10-26 UTC",
+    "evaluated_spot_assets": 61,
+    "signals_while_flat": 129,
+    "executed_trades_fills": 32,
+    "winning_trades": 2,
+    "losing_trades": 30,
+    "target_exits": 0,
+    "stop_exits": 27,
+    "time_or_final_exits": 5,
+    "win_rate_pct": 6.25,
+    "cumulative_return_r": -26.9307,
+    "mean_expectancy_r": -0.8416,
+    "profit_factor": 0.05,
+    "by_batch": [
+      {"batch": "Tanda 1 (filas 2-6)", "assets": 4, "signals": 4, "fills": 0, "wins": 0, "losses": 0, "sum_r": 0.0},
+      {"batch": "Tanda 2 (filas 7-11)", "assets": 5, "signals": 10, "fills": 4, "wins": 0, "losses": 4, "sum_r": -3.9275},
+      {"batch": "Tanda 3 (filas 12-31)", "assets": 19, "signals": 50, "fills": 10, "wins": 1, "losses": 9, "sum_r": -7.7695},
+      {"batch": "Tanda 4 (filas 32-51)", "assets": 17, "signals": 42, "fills": 12, "wins": 1, "losses": 11, "sum_r": -10.2546},
+      {"batch": "Tanda 5 (filas 52-71)", "assets": 16, "signals": 23, "fills": 6, "wins": 0, "losses": 6, "sum_r": -4.9791}
+    ]
+  },
+  "claude_quantitative_backtests": {
+    "C1_no_trailing_out_of_sample_15_assets": {
+      "trades": 106,
+      "expectancy_r": 1.13,
+      "expectancy_without_best_r": 0.87,
+      "profit_factor": 3.31,
+      "cumulative_r": 119.78
+    },
+    "C1T_v1_1_out_of_sample_15_assets": {
+      "trades": 169,
+      "expectancy_r": 0.22,
+      "expectancy_without_best_r": 0.15,
+      "profit_factor": 1.54,
+      "cumulative_r": 37.18,
+      "holdout_2024_2026_trades": 67,
+      "holdout_2024_2026_expectancy_r": 0.03,
+      "holdout_2024_2026_pf": 1.07
+    },
+    "C1T_v1_1_portfolio_24_assets_mark_to_market": {
+      "risk_per_trade_fraction": 0.001,
+      "trades": 284,
+      "annualized_return_pct": 0.98,
+      "sharpe": 0.83,
+      "max_drawdown_pct": -1.73,
+      "worst_day_mdl_pct": -0.56,
+      "bootstrap_p95_mdd_pct": -3.22,
+      "bootstrap_p95_1y_mdd_pct": -1.58
+    }
+  },
+  "candidate_trade_geometry_comparison": [
+    {
+      "lab": "Claude",
+      "pair": "NEAR/USD",
+      "status": "APPROVED_POST_FOMC",
+      "entry": 4.40,
+      "stop": 4.02,
+      "target": 5.40,
+      "raw_stop_pct": 8.636,
+      "raw_target_pct": 22.727,
+      "stop_in_daily_atr14": 0.82,
+      "unit_loss_net": 0.42631,
+      "unit_reward_net": 0.9459,
+      "cost_share_of_risk_pct": 10.86,
+      "rr_net": 2.2191,
+      "rr_double_cost": 1.8551,
+      "random_walk_hit_prob_pct": 27.54,
+      "breakeven_win_rate_pct": 31.06,
+      "ev_random_walk_r": -0.1136,
+      "ev_thesis_r": 0.4486
+    },
+    {
+      "lab": "Claude",
+      "pair": "PUMP/USD",
+      "status": "APPROVED_POST_FOMC",
+      "entry": 0.004,
+      "stop": 0.00356,
+      "target": 0.0051,
+      "raw_stop_pct": 11.0,
+      "raw_target_pct": 27.5,
+      "stop_in_daily_atr14": 0.78,
+      "unit_loss_net": 0.00048158,
+      "unit_reward_net": 0.00104995,
+      "cost_share_of_risk_pct": 8.63,
+      "rr_net": 2.1795,
+      "rr_double_cost": 1.8691,
+      "random_walk_hit_prob_pct": 28.57,
+      "breakeven_win_rate_pct": 31.45,
+      "ev_random_walk_r": -0.0915,
+      "ev_thesis_r": 0.3355
+    },
+    {
+      "lab": "Claude",
+      "pair": "ZEC/USD",
+      "status": "POSTPONED_UNTIL_AFTER_NU7_NOV5",
+      "entry": 1130.0,
+      "stop": 1035.0,
+      "target": 1370.0,
+      "raw_stop_pct": 8.407,
+      "raw_target_pct": 21.239,
+      "stop_in_daily_atr14": 0.75,
+      "unit_loss_net": 106.9075,
+      "unit_reward_net": 226.75,
+      "cost_share_of_risk_pct": 11.15,
+      "rr_net": 2.1211,
+      "rr_double_cost": 1.7662,
+      "random_walk_hit_prob_pct": 28.36,
+      "breakeven_win_rate_pct": 32.04,
+      "ev_random_walk_r": -0.1149,
+      "ev_thesis_r": 0.4045
+    },
+    {
+      "lab": "Codex",
+      "pair": "XRP/USD",
+      "status": "REJECTED_TIGHT_STOP_FEE_DRAG",
+      "entry": 1.3266,
+      "stop": 1.3157,
+      "target": 1.491,
+      "raw_stop_pct": 0.822,
+      "raw_target_pct": 12.393,
+      "stop_in_daily_atr14": 0.22,
+      "unit_loss_net": 0.025433,
+      "unit_reward_net": 0.148903,
+      "cost_share_of_risk_pct": 57.16,
+      "rr_net": 7.5234,
+      "rr_double_cost": 2.863,
+      "random_walk_hit_prob_pct": 6.22,
+      "breakeven_win_rate_pct": 11.73,
+      "ev_random_walk_r": -0.4701,
+      "ev_thesis_r": -0.8416
+    },
+    {
+      "lab": "Codex",
+      "pair": "BTC/USD",
+      "status": "REJECTED_TIGHT_STOP_FEE_DRAG",
+      "entry": 79799.9,
+      "stop": 79434.1,
+      "target": 85354.5,
+      "raw_stop_pct": 0.458,
+      "raw_target_pct": 6.961,
+      "stop_in_daily_atr14": 0.16,
+      "unit_loss_net": 1241.59,
+      "unit_reward_net": 4645.95,
+      "cost_share_of_risk_pct": 70.51,
+      "rr_net": 3.7483,
+      "rr_double_cost": 0.818,
+      "random_walk_hit_prob_pct": 6.18,
+      "breakeven_win_rate_pct": 21.06,
+      "ev_random_walk_r": -0.7066,
+      "ev_thesis_r": -0.8416
+    },
+    {
+      "lab": "Codex",
+      "pair": "LINK/USD",
+      "status": "REJECTED_TIGHT_STOP_FEE_DRAG",
+      "entry": 8.5559,
+      "stop": 8.4737,
+      "target": 10.3517,
+      "raw_stop_pct": 0.961,
+      "raw_target_pct": 20.989,
+      "stop_in_daily_atr14": 0.24,
+      "unit_loss_net": 0.17586,
+      "unit_reward_net": 1.69181,
+      "cost_share_of_risk_pct": 53.26,
+      "rr_net": 9.8403,
+      "rr_double_cost": 3.997,
+      "random_walk_hit_prob_pct": 4.38,
+      "breakeven_win_rate_pct": 9.22,
+      "ev_random_walk_r": -0.5252,
+      "ev_thesis_r": -0.8416
+    }
+  ],
+  "approved_execution_plan_summary": {
+    "fomc_blackout_window": "2026-10-27 to 2026-10-28 23:59 UTC",
+    "activation_window_start_utc": "2026-10-29T00:00:00Z",
+    "order_expiration_utc": "2026-11-02T00:00:00Z",
+    "global_btc_kill_switch_daily_close_usd": 76000.0,
+    "positions": [
+      {
+        "pair": "NEAR/USD",
+        "order_type": "Limit Buy with Conditional Close Stop-Loss",
+        "entry_price_usd": 4.40,
+        "stop_loss_price_usd": 4.02,
+        "take_profit_price_usd": 5.40,
+        "daytime_standard_sizing": {
+          "required_ask_depth_10bps_usd": 85000.0,
+          "quantity_units": 187.84,
+          "notional_usd": 826.50,
+          "max_risk_usd": 80.00,
+          "max_risk_pct_of_equity": 0.16,
+          "expected_net_profit_at_target_usd": 177.53
+        },
+        "nighttime_low_depth_sizing": {
+          "required_ask_depth_10bps_usd": 45000.0,
+          "quantity_units": 93.92,
+          "notional_usd": 413.25,
+          "max_risk_usd": 40.00,
+          "max_risk_pct_of_equity": 0.08,
+          "expected_net_profit_at_target_usd": 88.76
+        }
+      },
+      {
+        "pair": "PUMP/USD",
+        "order_type": "Limit Buy with Conditional Close Stop-Loss",
+        "entry_price_usd": 0.004,
+        "stop_loss_price_usd": 0.00356,
+        "take_profit_price_usd": 0.0051,
+        "sizing": {
+          "required_ask_depth_10bps_usd": 29000.0,
+          "quantity_units": 72500.0,
+          "notional_usd": 290.00,
+          "max_risk_usd": 35.02,
+          "max_risk_pct_of_equity": 0.07,
+          "expected_net_profit_at_target_usd": 76.36
+        }
+      }
+    ]
+  }
+}
